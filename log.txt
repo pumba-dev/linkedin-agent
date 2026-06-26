@@ -1,0 +1,111 @@
+[2026-06-05T01:18:34-03:00] Nenhum post novo para processar.
+
+#############################################################
+
+[2026-06-05T17:10:40-03:00] Execução concluída | Novos processados: 0 | Ignorados: 5
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7457041364720001024/
+* Post já curtido (liked: true) — adicionado a posts_processados.json e ignorado (LinkedIn Live: Webinar - Gestão Estratégica na Experiência do Paciente)
+
+#############################################################
+
+[2026-06-06T17:16:13-03:00] Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7468780168283844608/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Que conteúdo rico! A conversa sobre CX em serviços essenciais traz insights muito práticos para quem busca colocar o cliente no centro todos os dias. 💚"
+* Compartilhamento: feito
+   * Texto: "Podcasts sobre CX estão se tornando um canal valioso para quem quer aprender com casos reais. Quando gestores de empresas de serviços essenciais compartilham seus desafios abertamente, isso acelera o aprendizado de toda a comunidade. Esse episódio sobre experiência do cliente em serviços essenciais vale muito a pena! 💚"
+
+#############################################################
+
+2026-06-08T11:45:42-03:00 Nenhum post novo para processar.
+2026-06-08T17:16:55-03:00 Erro: extensão Claude in Chrome não está conectada ao navegador. Não foi possível acessar o LinkedIn.
+
+[2026-06-09T12:12:59-03:00] Execução concluída | Novos processados: 1 | Ignorados: 7
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7470092895207747584/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Que notícia incrível! Estar no maior evento de tecnologia da América Latina como expositor é o reconhecimento de quem já coloca o cliente no centro de forma consistente. 💚"
+* Compartilhamento: feito
+   * Texto: "Eventos como o Web Summit Rio são momentos únicos para quem trabalha com tecnologia e inovação. Ver uma plataforma de CX marcando presença como expositora nesse cenário reforça que colocar o cliente no centro não é apenas uma tendência, é uma vantagem competitiva real. Como sua empresa está se preparando para esse movimento? 💚"
+
+#############################################################
+
+2026-06-09T12:29:18-03:00 Nenhum post novo para processar.
+2026-06-09T12:47:05-03:00 Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7470092895207747584/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Participar de um evento desse porte como expositor é a melhor forma de mostrar, na prática, como a tecnologia que desenvolvemos realmente impacta a experiência do cliente. 💚"
+* Compartilhamento: feito
+   * Texto: "Grandes eventos de tecnologia são laboratórios ao vivo: você coloca a solução na frente do mercado e mede a resposta em tempo real. Estaremos no Web Summit Rio como expositores para mostrar, na prática, como a IA transforma a gestão de CX. Se você vai ao evento, passa no estande! 💚"
+
+#############################################################
+
+2026-06-09T15:05:54-03:00 Erro: falha ao criar tab group no Chrome (tabs_context_mcp retornou "Failed to query tabs: No group with id"). Não foi possível acessar o LinkedIn. Verifique se o Chrome está aberto e a extensão Claude in Chrome está ativa.
+
+#############################################################
+
+[2026-06-13T15:09:48-03:00] Nenhum post novo para processar.
+
+#############################################################
+
+2026-06-14T15:11:13-03:00 Nenhum post novo para processar.
+
+2026-06-15T15:10:24-03:00 Nenhum post novo para processar.
+2026-06-16T15:09:06-03:00 Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7472710002160422912/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Centralidade do Cliente vai muito além do discurso: ela redefine como priorizamos funcionalidades e como medimos sucesso no produto. Esse episódio vai ser imperdível! 💚"
+* Compartilhamento: feito
+   * Texto: "Uma das perguntas mais difíceis de responder no produto é: a centralidade do cliente é valor declarado ou valor operacional? Quando essa diferença entra em discussões de roadmap e arquitetura, tudo muda. Esse episódio traz exatamente o tipo de reflexão que faz a diferença. 💚"
+
+#############################################################
+
+[2026-06-20T11:00:54-03:00] Execução concluída | Novos processados: 2 | Ignorados: 3
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7473796998715002881/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Transformar escuta em ação consistente exige mais do que ferramentas: exige que produto e negócio priorizem juntos a partir dos mesmos dados. 💚"
+* Compartilhamento: feito
+   * Texto: "A pergunta do webinar é a mais difícil de responder em qualquer empresa orientada a produto: como garantir que a voz do cliente realmente move prioridades, não apenas relatórios? Estratégia, cultura e IA têm papéis distintos nessa equação, e esse webinar vai exatamente nessa direção. Vale reservar a agenda. ✅"
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7473110118776287233/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "O que torna a análise de sentimento realmente útil é quando ela alimenta decisões de produto em tempo real, não só relatórios mensais. Esse é o diferencial que constrói fidelização de verdade. ✅"
+* Compartilhamento: feito
+   * Texto: "A analogia com o futebol diz muito: times que vencem consistentemente não improvisam, eles analisam dados para construir jogadas com antecedência. No CX é igual: análise de sentimento, personalização e omnichannel só geram resultado quando conectados a uma estratégia clara. Sua empresa já tem essas peças integradas? 💚"
+
+#############################################################
+
+[2026-06-23T15:09:51-03:00] Erro: extensão do Chrome desconectada — não foi possível navegar para o LinkedIn. Nenhuma interação realizada.
+
+#############################################################
+
+2026-06-24T15:09:15-03:00 Erro: não foi possível acessar o navegador. Chrome MCP sem tab group ativo ("Failed to query tabs: No group with id") e computer-use sem aplicações na allowlist (usuário ausente para aprovação). Execução abortada sem processar posts.
+
+#############################################################
+
+2026-06-25T22:39:47-03:00 Erro: extensão Claude in Chrome não está conectada ao navegador. Não foi possível acessar o LinkedIn. Execução abortada sem processar posts.
+
+#############################################################
+
+
+[2026-06-26T10:01:42-03:00] Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7475975326783885312/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "O salto de "o cliente está no centro" para tomar decisões difíceis com base nisso é onde a maioria das empresas tropeça. Esse episódio com Francisco Zapata vai direto nessa direção. 💚"
+* Compartilhamento: feito
+   * Texto: "Centralidade do cliente é fácil como valor declarado; o desafio aparece quando ela precisa guiar uma decisão de produto que vai contra uma métrica interna. Francisco Zapata explora exatamente esse gap neste episódio do podcast. Se você trabalha com CX ou roadmap de produto, esse papo vai ressoar muito. 💚"
+
+#############################################################
