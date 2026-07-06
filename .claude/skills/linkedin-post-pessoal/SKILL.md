@@ -8,8 +8,8 @@ description: >-
   agendada", "faz um post de trending", "escreve um post pra comunidade tech",
   "to precisando bater a meta de posts" ou "monta um rascunho pro meu LinkedIn".
   Trabalha em modo rascunho → aprovação (NUNCA publica sem o OK do usuário),
-  é disparada manualmente, gera o texto + hashtags + imagem (card de conceito
-  ou cena fotorrealista por IA), apresenta o rascunho e só publica via browser depois da
+  é disparada manualmente, gera o texto + hashtags + imagem-gancho ou cena
+  fotorrealista (sempre por IA), apresenta o rascunho e só publica via browser depois da
   aprovação. Meta de no mínimo 3 posts por semana.
 ---
 
@@ -86,44 +86,30 @@ Diferente de comentário (que é curto): corpo desenvolvido e formato escaneáve
 
 ### Imagem do post (estratégia)
 
-Post sem imagem engaja pouco. **Toda postagem sai com imagem.** O Analista escolhe
-o **tipo** (ver "Papéis"):
+Post sem imagem engaja pouco. **Toda postagem sai com imagem, sempre gerada por IA**
+(`gpt-image-2`; sistema, prompt e gate na
+**[seção 3 do contexto compartilhado](../_shared/contexto-compartilhado.md)**).
+Não há geração por HTML. O Analista escolhe o **propósito** (ver "Papéis"):
 
 - **Post agendado:** usa a imagem que o usuário colocou em
   `posts_agendados/<slug>/`. Não gerar nada.
-- **Conceito / tese / opinião abstrata → card de conceito** gerado em código
-  (a maioria dos posts de trending/comunidade).
-- **Cena / situação concreta → foto realista** gerada por IA (`gpt-image-2`,
-  OpenAI). Ex.: alguém revisando arquitetura, time em code review, mesa de
-  trabalho, bastidor de evento. Regras de prompt anti "cara de IA", comando e gate
-  no **[contexto compartilhado, seção 3](../_shared/contexto-compartilhado.md)**.
-- **Rotacionar** card e cena ao longo da semana (não virar sempre foto); alvo
-  **~40-50%** dos posts com cena, o resto card.
-- **Nunca** usar imagem aleatória da web (copyright).
+- **Conceito / novidade tech → imagem-gancho:** pôster que **para o scroll**,
+  estética **Aero-Pixel** (Frutiger Aero glossy + pixel art 8-bit), manchete curta
+  com curiosity gap (de preferência uma dor concreta, nomeando ferramentas),
+  rodapé discreto `</>` + `Paulo Eduardo · Engenharia de Software · www.pumbadev.com`, **rotação de formato**
+  (afirmação / pergunta / palavra-herói / metáfora+ícone / infográfico). Detalhe na
+  seção 3 do contexto compartilhado.
+- **Situação concreta do dia a dia → cena fotorrealista:** foto realista (ex.:
+  alguém revisando arquitetura, mesa de trabalho, bastidor de evento).
+- **Nunca** usar imagem aleatória da web (copyright) nem geração por HTML.
 
-A imagem final vai para `posts_gerados/<slug>/imagem.png` (posts gerados) ou fica
-na própria `posts_agendados/<slug>/` (agendados); o caminho e os metadados da
-geração são gravados em `data/posts_publicados.json`.
+A imagem final vai para `posts_gerados/<slug>/imagem.png` (ou fica na própria
+`posts_agendados/<slug>/`); caminho + metadados da geração vão para
+`data/posts_publicados.json`.
 
-**Card de conceito:** criar `posts_gerados/<slug>/`, copiar
-`assets/card-template.html` substituindo `{{HOOK}}` (1ª linha do post, curta — não
-o post inteiro), `{{ACCENT}}` (2ª parte do gancho em destaque, pode ficar vazia) e
-`{{FOOT}}` (assinatura, ex.: `Paulo Araujo · Engenharia de Software`); salvar como
-`posts_gerados/<slug>/card.html` e renderizar para PNG 1200x1200 com o comando do
-**[contexto compartilhado, seção 3](../_shared/contexto-compartilhado.md)**.
-Conferir o PNG; se o texto estourar, encurtar o gancho ou baixar o `font-size` e
-renderizar de novo. A paleta (azul, não verde) já está no template.
-
-**Cena fotorrealista (`gpt-image-2`):** requer `OPENAI_API_KEY` no `.env` da raiz
-(billing de API, não a assinatura do ChatGPT). Montar o prompt seguindo as
-**regras anti "cara de IA"** e rodar `assets/gerar-imagem-openai.ps1` (defaults
-1200x1200, `medium`) — passo a passo na
-**[seção 3 do contexto compartilhado](../_shared/contexto-compartilhado.md)**.
-Passar pelo **gate da imagem** (checar uncanny; regenerar até 2x). **Sem key ou
-erro de API → fallback para o card.**
-
-_Alternativa opcional (não default): foto de banco livre (Unsplash/Pexels) se
-houver `UNSPLASH_ACCESS_KEY`/`PEXELS_API_KEY`, para cena real sem IA._
+`OPENAI_API_KEY` no `.env` da raiz. Passar pelo **gate de texto** (conferir acento
+por acento; regenerar até 2x). Erro de API → tentar de novo; persistindo, avisar o
+usuário — **não há fallback em código e não se publica sem a imagem**.
 
 ### Papéis: Analista → Redator
 
@@ -133,10 +119,11 @@ Separação de papéis para evitar texto raso.
 assunto e ângulo próprio (a tese); público-alvo (pares de tech, lideranças,
 stakeholders, recrutadores); gancho candidato; estrutura do corpo (ideia, exemplo /
 leitura de mercado, fecho); CTA de fechamento; sentimento (normal ou
-sensível/triste); comprimento-alvo; **tipo de imagem** (card de conceito ou cena
-fotorrealista — mirar ~40-50% cena na semana; se card, definir o texto do gancho;
-se cena, definir o prompt em inglês com o enquadramento e as regras anti "cara de
-IA" da seção 3 do contexto compartilhado).
+sensível/triste); comprimento-alvo; **imagem** (propósito: **gancho** de conceito
+ou **cena** do dia a dia; se gancho, escolher o formato — afirmação / pergunta /
+palavra-herói / metáfora+ícone / infográfico — e a manchete curta; se cena, o
+enquadramento; prompt em inglês seguindo o sistema visual e o gate da seção 3 do
+contexto compartilhado).
 
 **Redator** (recebe só a análise): escreve o **corpo** seguindo "Estrutura de um
 post"; gera as **hashtags** (3-5); roda o **score** e reescreve se reprovar; passa
@@ -219,10 +206,11 @@ pendente; fica pendente até ser movida para `posts_agendados/publicados/` (pass
 
 ### 4. Apresentar o rascunho e aguardar aprovação
 
-**Antes de apresentar, gerar a imagem** conforme o tipo escolhido pelo Analista:
-**card de conceito** (render local) ou **cena fotorrealista** (`gpt-image-2` via
-`assets/gerar-imagem-openai.ps1`, com o gate anti "cara de IA"; erro/sem key →
-fallback para o card). Salvar em `posts_gerados/<slug>/imagem.png`.
+**Antes de apresentar, gerar a imagem por IA** (`gpt-image-2` via
+`assets/gerar-imagem-openai.ps1`) conforme o propósito: **imagem-gancho**
+(conceito/novidade) ou **cena fotorrealista** (situação do dia a dia). Passar pelo
+**gate de texto/imagem** (regenerar até 2x; erro persistente → avisar o usuário,
+sem publicar sem imagem). Salvar em `posts_gerados/<slug>/imagem.png`.
 
 **Não publicar ainda.** Mostrar ao usuário, claramente:
 
@@ -297,9 +285,10 @@ Array de objetos, um por post publicado. **Nunca apagar.**
     "texto": "texto completo publicado",
     "hashtags": ["#exemplo", "#outra"],
     "imagem": "posts_gerados/<slug>/imagem.png ou posts_agendados/<slug>/imagem.png ou null",
-    "imagemTipo": "card | cena | agendada",
-    "imagemModelo": "gpt-image-2 (só cena) ou null",
-    "imagemPrompt": "prompt usado na cena, ou null",
+    "imagemTipo": "gancho | cena | agendada",
+    "imagemFormato": "afirmacao | pergunta | palavra | metafora | infografico (só gancho) ou null",
+    "imagemModelo": "gpt-image-2 ou null (agendada)",
+    "imagemPrompt": "prompt usado na geração, ou null",
     "permalink": "url do post publicado ou null",
     "publicadoEm": "2026-06-26T09:30:00-03:00",
     "status": "publicado | erro"
@@ -316,7 +305,7 @@ Append em `data/log.txt`. `[DATA/HORA]` em ISO 8601 com offset,
 [DATA/HORA] Postagem pessoal | Fonte: [agendado/trending/comunidade] | Pilar: [pilar] | Posts na semana: [N/3]
 
 * Status: [publicado / descartado / erro]
-* Imagem: [caminho / nenhuma] ([card / cena / agendada])
+* Imagem: [caminho / nenhuma] ([gancho / cena / agendada])
 * Texto:
 "[texto completo do post]"
 * Hashtags: [#... #...]

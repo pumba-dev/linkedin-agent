@@ -9,7 +9,7 @@ fica na própria skill. A orquestração entre elas está no `.claude/CLAUDE.md`
 
 1. Persona e voz
 2. Regras de escrita (comuns)
-3. Paleta da marca e imagens do post (card e cena)
+3. Paleta da marca e imagens do post (gancho e cena, ambas por IA)
 4. Browser MCP (tools e setup)
 5. Estrutura de pastas e estado persistente
 6. Data/hora e log
@@ -68,7 +68,7 @@ Aplicar em todo texto gerado, em qualquer skill:
 - **Enquadramento positivo (não alienar pessoa nem grupo):** nunca gerar texto que
   cause impacto negativo sobre alguém, que fale de forma negativa de uma pessoa ou
   grupo, ou que pinte quem age de outra forma como inferior, em falta ou refém de um
-  erro (ex.: "liderança que *não* documenta acaba presa em quem a exerce"). Mesmo
+  erro (ex.: "liderança que _não_ documenta acaba presa em quem a exerce"). Mesmo
   quando a crítica é verdadeira, ela cria atrito e afasta parte da audiência. O
   objetivo é agregar e agradar o máximo de pessoas. Afirmar sempre pelo lado
   positivo, pelo que quem faz bem ganha, nunca pelo defeito de quem não faz (ex.:
@@ -100,56 +100,83 @@ Aplicar em todo texto gerado, em qualquer skill:
 Comprimentos variam por skill (comentário curto, compartilhamento maior, post
 desenvolvido) e estão definidos em cada SKILL.md.
 
-## 3. Paleta da marca e imagens do post (card e cena)
+## 3. Paleta da marca e imagens do post (gancho e cena, ambas por IA)
 
-Dois tipos de imagem, escolhidos pelo Analista da `linkedin-post-pessoal`:
-**card de conceito** (desenhado em código, para tese/opinião abstrata) e **cena
-fotorrealista** (foto gerada por IA, para situação concreta). Regras de cada um
-abaixo.
+**Toda imagem é gerada por IA** (`gpt-image-2`, OpenAI) pelo script
+`assets/gerar-imagem-openai.ps1`. **Não há geração por HTML→PNG.** Dois propósitos,
+escolhidos pelo Analista da `linkedin-post-pessoal` (muda só o prompt):
 
-**Paleta da marca pessoal** (de `pumba-dev-website`). Azul é a cor primária,
-**não verde**:
+- **Imagem-gancho** — para **ensinar um conceito ou comentar novidade tech**. Um
+  pôster/infográfico editorial que **para o scroll** e puxa pro texto.
+- **Cena fotorrealista** — para **ilustrar uma situação concreta do dia a dia**.
+
+Regra de escolha: **conceito/novidade → gancho; situação do dia a dia → cena.**
+
+**Paleta da marca pessoal** (de `pumba-dev-website`). Azul é a cor primária:
 
 - blue `#405ABA` (primária) · dark-blue `#141C3A` · disable-blue `#6C6F9B`
 - gray `#717689` · gray-blue `#D8DEF2` · white `#FFF` · white-gray `#f7f7f7`
 - orange-red `#FF4700` · orange `#E69E19` · green `#5ccd32` (existe, não usado nos
   cards) · black `#000`
 
-**Card de conceito** (imagem padrão dos posts pessoais de trending/comunidade):
-template em `assets/card-template.html` (raiz do projeto), placeholders
-`{{HOOK}}` / `{{ACCENT}}` / `{{FOOT}}`. Paleta aplicada: fundo dark-blue
-(gradiente `#1a234d → #0f1530 → #080b1c`), barra e ponto em `#405ABA`, texto de
-destaque em azul claro `#7B92EA`, texto base branco, rodapé `#aab2dd`.
+### Imagem-gancho (gpt-image-2, conceito / novidade tech)
 
-Render para PNG 1200x1200 com Chrome headless. **Usar perfil temporário próprio
-(`--user-data-dir`)**, senão o Chrome já aberto captura o comando e ignora as
-flags:
+Pôster editorial que compete com milhares de posts no feed. Precisa **parar o
+scroll** e criar uma curiosidade que só o texto resolve.
+
+**Sistema visual (padrão — estética Aero-Pixel):** fusão de **Frutiger Aero**
+(vidro aqua translúcido glossy, gotas d'água, bolhas, céu claro, sol, lens flare,
+otimismo Web 2.0) com **pixel art 8-bit** (paisagem/ícones/sprites pixelados,
+janelas de UI retrô estilo game, bloco "?", fontes chunky pixeladas).
+
+- **Manchete** em fonte glossy limpa e **legível** (azul-escuro sobre o vidro
+  aqua); **palavras-chave / nomes de ferramentas** em **botões-pill pixelados**
+  coloridos (verde/azul/laranja).
+- Elemento pixel que **reforça a ideia** quando couber (mini-janela tipo
+  `SAME MODEL -> DIFFERENT RESULTS`, personagem pixel pensando, balão curto).
+- Rodapé **discreto** (faixa fina, ≤10% da altura, texto pequeno): pill com selo
+  `</>` + **`Paulo Eduardo · Engenharia de Software · www.pumbadev.com`**.
+- **Alto contraste, legível como miniatura no mobile**; não poluir.
+
+**Rotacionar o FORMATO por post** (não repetir o mesmo em posts seguidos):
+
+1. **Afirmação** provocativa (ex.: "Não é o modelo. É o harness.").
+2. **Pergunta** com dor concreta, de preferência nomeando ferramentas (ex.: "Por
+   que o mesmo modelo rende diferente no Cursor, no Copilot e no Claude Code?").
+3. **Palavra-herói** + subtítulo curto (ex.: "HARNESS").
+4. **Metáfora + ícone** flat (ex.: "Modelo é o motor. Harness é o carro inteiro.").
+5. **Infográfico-loop** simples (núcleo + 3 nós + setas + 3 takeaways curtos).
+
+Manchete curta (o gancho) e, quando couber, um **elemento pixel** que **reforce**
+a ideia. Exemplo real (prompt + resultado):
+`posts_gerados/harness-ferramentas-codigo/`.
+
+**Gerar** (mesmo script; muda só o prompt; `-Quality high` ajuda a legibilidade):
 
 ```powershell
-$chrome = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-$dir = "C:\Users\eduar\github\linkedin-indecx-engajamento\posts_gerados\<slug>"
-$out = "$dir\imagem.png"
-$html = "file:///" + ($dir + "\card.html").Replace('\','/')
-Start-Process -FilePath $chrome -Wait -NoNewWindow -ArgumentList `
-  "--headless=new","--disable-gpu","--no-first-run","--no-default-browser-check",`
-  "--user-data-dir=$env:TEMP\chrome-card-render","--hide-scrollbars",`
-  "--force-device-scale-factor=1","--window-size=1200,1200","--screenshot=$out","$html"
+$script = "C:\Users\eduar\github\linkedin-indecx-engajamento\assets\gerar-imagem-openai.ps1"
+& $script `
+  -Prompt "poster fusing FRUTIGER AERO with 8-BIT PIXEL ART, square 1:1: glossy translucent aqua-blue glass, water droplets, bubbles, soft lens flare, bright sky (Frutiger Aero) blended with a retro 8-bit pixel-art landscape, pixel sprites and retro game UI windows; high contrast, thumbnail-legible. <FORMATO + manchete curta em PT> as a clean glossy legible headline, with the key words / tool names in chunky pixel-font colored pill buttons; optional small pixel window or speech-bubble that reinforces the idea; slim DISCREET footer strip (no more than 10 percent of the image height, small text) with a </> emblem reading 'Paulo Eduardo  ·  Engenharia de Software  ·  www.pumbadev.com'; all text fully contained within safe margins, nothing cropped; Brazilian Portuguese, render all text exactly with correct accents, crisp legible lettering" `
+  -Out "posts_gerados\<slug>\imagem.png" -Quality high
 ```
+
+**Gate do gancho (obrigatório):** ler o PNG e conferir **todo o texto**, letra por
+letra e **acento por acento** (o `gpt-image-2` às vezes come acento, ex. "e" no
+lugar de "é", ou inventa masthead/data). Qualquer erro → **regenerar** reforçando
+os acentos e cortando o que sobrou (máx. 2x). Texto mínimo = menos risco.
 
 ### Cena fotorrealista (gpt-image-2, OpenAI)
 
-Para post de **cena/situação concreta** (não conceito abstrato), gerar uma **foto
-realista** com o modelo `gpt-image-2` da OpenAI, em vez do card. Requer
-`OPENAI_API_KEY` no `.env` da raiz (cobrança pay-as-you-go de API; **não** é a
-assinatura do ChatGPT). Sem a key ou em erro de API → **cair no card de conceito**
-(fallback; post nunca fica sem imagem).
+Para post que **ilustra uma situação concreta do dia a dia**, gerar uma **foto
+realista** com o `gpt-image-2`. Requer `OPENAI_API_KEY` no `.env` da raiz
+(cobrança pay-as-you-go de API; **não** é a assinatura do ChatGPT).
 
 **Regras do prompt (anti "cara de IA") — obrigatórias.** `gpt-image-2` é
-autoregressivo e segue linguagem natural; não há *negative prompt*, então as
+autoregressivo e segue linguagem natural; não há _negative prompt_, então as
 restrições entram como instrução positiva, **em inglês**, no próprio prompt:
 
 - **Fotográfico, não renderizado:** `photorealistic photograph, natural light,
-  35mm, shallow depth of field, subtle film grain`. Nunca `3d render`, `cartoon`,
+35mm, shallow depth of field, subtle film grain`. Nunca `3d render`, `cartoon`,
   `illustration`, `cgi`, cor neon ou gradiente saturado.
 - **Enquadrar longe do que a IA erra:** personagem **de lado, de costas ou a
   meia-distância**, com **rosto e mãos fora do close** (rosto/dedos são onde o
@@ -157,7 +184,7 @@ restrições entram como instrução positiva, **em inglês**, no próprio promp
 - **Poucos elementos, paleta sóbria** encostando na marca (azul/neutros) sem
   forçar. Ambiente de trabalho/tech plausível.
 - **Sem texto na imagem:** `no on-image text, no captions, no logos, no
-  watermark` (o texto vai no post; a IA erra letra).
+watermark` (o texto vai no post; a IA erra letra).
 - **Enquadramento positivo, zero violência** (herda a regra da seção 2): cena que
   soma e agrada, nunca depreciativa nem tensa.
 
@@ -173,14 +200,16 @@ $script = "C:\Users\eduar\github\linkedin-indecx-engajamento\assets\gerar-imagem
 Defaults do script: `-Size 1200x1200`, `-Quality medium`, `-Model gpt-image-2`. O
 script lê a key do ambiente ou do `.env` sozinho e **nunca imprime a chave**.
 Subir para `-Quality high` só quando o realismo exigir; `1024x1536` (portrait)
-ocupa mais feed no mobile. Saída `OK: <caminho>` = sucesso; qualquer erro
-(exit != 0) → fallback para o card.
+ocupa mais feed no mobile. Saída `OK: <caminho>` = sucesso; erro (exit != 0) →
+**não há fallback em código** (o HTML foi removido): tentar de novo e, persistindo,
+avisar o usuário; não publicar sem a imagem.
 
 **Gate da imagem (antes de mostrar ao usuário):** olhar o PNG e checar "ficou
 uncanny / cara de IA?" (rosto/mão deformados, textura plástica, texto inventado).
 Se sim, ajustar o prompt (afastar mais o enquadramento, reforçar o vocabulário
-fotográfico) e regenerar, **no máximo 2 vezes**; persistindo, cair no card. A
-aprovação final do usuário (rascunho→aprovação) continua valendo por cima disto.
+fotográfico) e regenerar, **no máximo 2 vezes**; persistindo, avisar o usuário e
+não publicar sem a imagem. A aprovação final do usuário (rascunho→aprovação)
+continua valendo por cima disto.
 
 ## 4. Browser MCP (tools e setup)
 
@@ -221,8 +250,8 @@ são **descartáveis** e não devem ir para o git.
   **apagar os temporários gerados na sessão**: `.playwright-mcp/` inteira e
   quaisquer `*-snap.yml` / `page-*.yml` / screenshots de checagem soltos na raiz.
 - **Nunca apagar estado nem entregáveis**: `data/`, `posts_gerados/<slug>/`
-  (imagem, card, post.md) e `posts_agendados/` ficam. A limpeza é só de artefato
-  de inspeção do browser.
+  (imagem, post.md) e `posts_agendados/` ficam. A limpeza é só de artefato de
+  inspeção do browser.
 
 ## 5. Estrutura de pastas e estado persistente
 

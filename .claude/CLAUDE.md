@@ -48,7 +48,7 @@ esse arquivo em vez de repetir as regras.
 | `data/` | estado persistente: `posts_processados.json`, `posts_data.json`, `posts_publicados.json`, `stakeholders.json`, `log.txt` (nunca apagar) |
 | `posts_agendados/<slug>/` | posts agendados pelo usuário (imagem + `contexto.md`) |
 | `posts_gerados/<slug>/` | drafts gerados (texto, card, imagem) |
-| `assets/card-template.html` | template do card de imagem |
+| `assets/gerar-imagem-openai.ps1` | gerador de imagem por IA (gpt-image-2) |
 
 ## Princípios (valem para todas as skills)
 
