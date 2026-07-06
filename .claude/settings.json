@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": "$c = (git status --porcelain -- .claude/ 2>$null); if ($c) { $m = 'Lembrete: ha mudancas nao commitadas em .claude/. Sugestao: git add .claude ; git commit. Arquivos:' + [Environment]::NewLine + ($c -join [Environment]::NewLine); ConvertTo-Json (@{ systemMessage = $m }) | Write-Output }",
+            "timeout": 15,
+            "statusMessage": "Checando mudancas em .claude/"
+          }
+        ]
+      }
+    ]
+  }
+}
