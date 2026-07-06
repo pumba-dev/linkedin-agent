@@ -2,7 +2,7 @@
 
 - **Tipo/fonte:** comunidade / educativo
 - **Pilar:** atualidades & trending tech (explicador educativo)
-- **Imagem:** `posts_gerados/harness-ferramentas-codigo/imagem.png` (cena fotorrealista, gpt-image-2)
+- **Imagem:** imagem-gancho por IA (`gpt-image-2`), estética **Aero-Pixel**, formato **pergunta** (dor concreta nomeando ferramentas). Footer discreto com site. Arquivo: `posts_gerados/harness-ferramentas-codigo/imagem.png`
 
 ## Texto
 
@@ -26,6 +26,8 @@ E você, já parou para olhar o harness por trás da ferramenta que usa, ou só 
 
 #claudecode #agentesdeia #engenhariadesoftware #inteligenciaartificial
 
-## Prompt da imagem (gpt-image-2, 1200x1200, medium)
+## Imagem — prompt (gpt-image-2, 1200x1200, quality high)
 
-photorealistic candid documentary photograph, natural window light, 35mm lens, shallow depth of field, subtle film grain, a software developer seen from behind at mid-distance, sitting at a tidy wooden desk in a calm modern home office, facing a large monitor that shows code and a terminal, soft daylight from a side window, muted blue and warm neutral color palette, person and screen slightly out of sharp focus, face and hands out of frame, realistic textures, no on-image text, no captions, no logos, no watermark
+Estética Aero-Pixel · formato pergunta · footer discreto com www.pumbadev.com · manchete contida com "?".
+
+A poster fusing FRUTIGER AERO with 8-BIT PIXEL ART, square 1:1: glossy translucent aqua-blue glass panel, water droplets, bubbles, soft lens flare, bright sky (Frutiger Aero) blended with a retro 8-bit pixel-art landscape at the bottom (island, tree, pixel water, pixel city skyline), pixel sprites and a small retro game UI window; playful cohesive blend, high contrast, thumbnail-legible. CRITICAL LAYOUT RULE: ALL text FULLY CONTAINED with safe margins - nothing cropped, no word or pill touching or crossing the panel edges or image border. Headline in clean glossy legible dark-blue type. It is a QUESTION and MUST end with a clearly visible question mark '?'. Text: 'Por que o mesmo modelo rende diferente no Cursor, no Copilot e no Claude Code?' with the tool names 'Cursor', 'Copilot' and 'Claude Code' in chunky pixel-font colored pill buttons (green, blue, orange) fully within the panel, and a visible '?' right after the 'Claude Code' pill. FOOTER: a slim, small, DISCREET single-line strip at the very bottom occupying no more than 10 percent of the image height, with a small </> emblem and small text reading 'Paulo Eduardo  ·  Engenharia de Software  ·  www.pumbadev.com', fully inside the margins. Brazilian Portuguese, render all text exactly as given with correct accents, crisp legible lettering.
