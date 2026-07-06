@@ -1,0 +1,162 @@
+[
+  {
+    "nome": "Rodrigo Branas",
+    "perfil": "https://www.linkedin.com/in/rodrigobranas/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "alta",
+    "observacoes": ""
+  },
+  {
+    "nome": "Filipe Deschamps",
+    "perfil": "https://www.linkedin.com/in/filipedeschamps/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "alta",
+    "observacoes": ""
+  },
+  {
+    "nome": "Gustavo Guanabara",
+    "perfil": "https://www.linkedin.com/in/guanabara/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "alta",
+    "observacoes": ""
+  },
+  {
+    "nome": "Rafaella Ballerini",
+    "perfil": "https://www.linkedin.com/in/rafaellaballerini/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Diego Fernandes",
+    "perfil": "https://www.linkedin.com/in/diegofernandesdev/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "alta",
+    "observacoes": ""
+  },
+  {
+    "nome": "Gabriel Fróes",
+    "perfil": "https://www.linkedin.com/in/gabrielfroes/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Lucas Montano",
+    "perfil": "https://www.linkedin.com/in/lucasmontano/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "alta",
+    "observacoes": ""
+  },
+  {
+    "nome": "Augusto Galego",
+    "perfil": "https://www.linkedin.com/in/augusto-galego/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Giulia Bordignon",
+    "perfil": "https://www.linkedin.com/in/spacecoding/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": "Canal Space Coding."
+  },
+  {
+    "nome": "Fernanda Kipper",
+    "perfil": "https://www.linkedin.com/in/fernanda-kipper/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Deyvid Nascimento",
+    "perfil": "https://www.linkedin.com/in/deyvidnascimento/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Vanessa Weber Fróes",
+    "perfil": "https://www.linkedin.com/in/vanessaweberfroes/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Diego Schell Fernandes",
+    "perfil": "https://www.linkedin.com/in/diego-schell-fernandes/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": ""
+  },
+  {
+    "nome": "Karol Attekita",
+    "perfil": "https://www.linkedin.com/in/bullas-attekita/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "média",
+    "observacoes": "Engenheira iOS Sênior (SwiftUI/Kotlin Multiplatform), LinkedIn Top Voice. Nome confirmado no feed em 2026-06-26 (handle bullas-attekita)."
+  },
+  {
+    "nome": "Erick Wendel",
+    "perfil": "https://www.linkedin.com/in/erickwendel/",
+    "categoria": "comunidade-tech",
+    "relacao": "influenciador",
+    "prioridade": "alta",
+    "observacoes": ""
+  },
+  {
+    "nome": "Rafael Nascimento",
+    "perfil": "https://www.linkedin.com/in/rafaeljnascimento/",
+    "categoria": "empresa",
+    "relacao": "C-level",
+    "prioridade": "alta",
+    "observacoes": "CEO."
+  },
+  {
+    "nome": "José Choucaira",
+    "perfil": "https://www.linkedin.com/in/jose-choucaira/",
+    "categoria": "empresa",
+    "relacao": "C-level",
+    "prioridade": "alta",
+    "observacoes": "CFO."
+  },
+  {
+    "nome": "Tomás Duarte",
+    "perfil": "https://www.linkedin.com/in/tomasduarte/",
+    "categoria": "empresa",
+    "relacao": "C-level",
+    "prioridade": "alta",
+    "observacoes": "CXO (Experience Office)."
+  },
+  {
+    "nome": "Luiz Carvalho",
+    "perfil": "https://www.linkedin.com/in/luizmcarvalho/",
+    "categoria": "empresa",
+    "relacao": "C-level",
+    "prioridade": "alta",
+    "observacoes": "CPO (Product Office)."
+  },
+  {
+    "nome": "Caio Nascimento",
+    "perfil": "https://www.linkedin.com/in/caiofnasc/",
+    "categoria": "empresa",
+    "relacao": "C-level",
+    "prioridade": "alta",
+    "observacoes": "CTO."
+  }
+]

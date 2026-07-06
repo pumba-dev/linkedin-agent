@@ -1,0 +1,50 @@
+[
+  {
+    "id": "analise-sentimento-decisao",
+    "tipo": "comunidade",
+    "fonte": "ia-dados",
+    "pilar": "ia-dados",
+    "texto": "Coletar feedback do cliente ficou fácil. Transformar em decisão antes do estrago é que separa os times.\n\nQuase toda empresa hoje captura opinião em escala. Pesquisa, avaliação, comentário, menção em rede. O volume não é mais o problema.\n\nO problema é o tempo entre o sinal e a ação. Análise de sentimento que aponta um cliente insatisfeito no relatório do mês seguinte não evitou nada. O churn já aconteceu.\n\nO valor real aparece quando a leitura do sentimento chega na frente: vira alerta, vira prioridade, vira uma conversa antes do cancelamento. Aí o dado deixa de ser retrovisor e vira direção. 🟢\n\nA parte técnica difícil não é classificar o texto. É reduzir a distância entre perceber e agir.\n\nOnde está a maior demora no seu fluxo de feedback: em capturar, em entender ou em reagir?",
+    "hashtags": ["#inteligenciaartificial", "#dados", "#experienciadocliente", "#nlp"],
+    "imagem": "posts_gerados/analise-sentimento-decisao/imagem.png",
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7476371714147426304/",
+    "publicadoEm": "2026-06-26T17:34:08-03:00",
+    "status": "publicado"
+  },
+  {
+    "id": "concorrencia-vs-paralelismo",
+    "tipo": "trending",
+    "fonte": "educativo: concorrência vs paralelismo (ciência da computação)",
+    "pilar": "full-stack",
+    "texto": "Concorrência e paralelismo parecem sinônimos. Tratá-los como a mesma coisa explica boa parte dos bugs de performance.\n\nA diferença cabe numa cena de cafeteria.\n\nConcorrência é um barista sozinho tocando três pedidos. Ele começa um café, vai anotar o próximo enquanto a água esquenta, volta para o primeiro. Uma pessoa, várias tarefas em progresso.\n\nParalelismo é três baristas trabalhando, cada um no seu pedido, ao mesmo tempo de verdade.\n\nConcorrência é lidar com muitas coisas ao mesmo tempo. Paralelismo é fazer muitas coisas ao mesmo tempo. Parecido na frase, distante na máquina.\n\nUm existe sem o outro. Um servidor de thread única segura milhares de conexões concorrentes sem nenhum paralelismo. Um cálculo pesado dividido entre vários núcleos é paralelo sem precisar de concorrência.\n\nNa prática, o que muda é onde está o gargalo. Quando a espera domina (rede, disco, banco), concorrência libera a CPU para outra tarefa enquanto uma aguarda. Quando o processamento domina, só mais núcleos trabalhando juntos aceleram.\n\nSaber qual dos dois o problema pede evita jogar complexidade no lugar errado.\n\nE aí, o seu gargalo costuma ser espera ou processamento?",
+    "hashtags": ["#cienciadacomputacao", "#engenhariadesoftware", "#programacao", "#concorrencia"],
+    "imagem": "posts_gerados/concorrencia-vs-paralelismo/imagem.png",
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7477051963986149377/",
+    "publicadoEm": "2026-06-28T14:35:00-03:00",
+    "status": "publicado"
+  },
+  {
+    "id": "novos-papeis-engenharia-ia",
+    "tipo": "trending",
+    "fonte": "trending: novos papéis de engenharia na era dos agentes de IA",
+    "pilar": "atualidades",
+    "texto": "Prompt engineer, context designer, especialista em governança de IA. A lista de cargos novos de engenharia cresce toda semana em 2026.\n\nFácil ler isso como corrida atrás do título da moda. Acho que é a leitura errada.\n\nO que muda não é o crachá. É onde mora o valor do trabalho.\n\nQuando o agente escreve a primeira versão do código em segundos, a parte escassa deixa de ser digitar. Passa a ser decidir o que construir, dar o contexto certo e responder pela qualidade e pelo risco do que foi gerado.\n\nIsso sempre foi engenharia de verdade. A diferença é que agora aparece no centro, sem o código manual escondendo o resto.\n\nQuem investe em julgamento, arquitetura e comunicação clara de intenção multiplica o próprio alcance. Conduz vários agentes ao mesmo tempo e continua dono das decisões que importam.\n\nOs nomes dos cargos vão mudar de novo. A habilidade por baixo deles é a que vale a pena treinar.\n\nSe você fosse investir em uma só capacidade para os próximos anos, qual escolheria?",
+    "hashtags": ["#inteligenciaartificial", "#engenhariadesoftware", "#carreiraemtech", "#agentesdeia"],
+    "imagem": "posts_gerados/novos-papeis-engenharia-ia/imagem.png",
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7478586400494407680/",
+    "publicadoEm": "2026-07-02T20:13:00-03:00",
+    "status": "publicado"
+  },
+  {
+    "id": "idempotencia",
+    "tipo": "comunidade",
+    "fonte": "educativo: idempotência (engenharia de software)",
+    "pilar": "full-stack",
+    "texto": "Clicar duas vezes em \"pagar\" não deveria cobrar duas vezes. Idempotência é o nome dessa garantia.\n\nToda rede falha em algum momento. A requisição sai, a resposta se perde, o cliente tenta de novo. A pergunta é o que acontece na segunda tentativa.\n\nUma operação idempotente pode rodar uma ou dez vezes e o resultado final é o mesmo.\n\nPensa no botão do elevador. Apertar cinco vezes não faz o elevador chegar mais rápido. O primeiro toque registrou a chamada, os outros não mudam nada.\n\nCriar um pedido sem essa proteção é o oposto. Dois cliques, dois pedidos. Um retry automático da rede, cobrança duplicada.\n\nNa prática, a saída costuma ser uma chave de idempotência. O cliente manda um identificador único na operação. O servidor guarda o resultado da primeira execução e devolve essa mesma resposta se a chave voltar, em vez de rodar tudo de novo.\n\nIsso muda o projeto do sistema. Retry deixa de ser risco e vira comportamento seguro. A fila pode reentregar a mensagem, o webhook pode chegar em dobro. Nada disso quebra.\n\nO detalhe é que idempotência não vem de graça. Ela se projeta na operação, não se adiciona depois.\n\nOnde você já se queimou com uma operação que rodou duas vezes sem querer?",
+    "hashtags": ["#engenhariadesoftware", "#backend", "#arquiteturadesoftware", "#sistemasdistribuidos"],
+    "imagem": "posts_gerados/idempotencia/imagem.png",
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:share:7479304992940601344/",
+    "publicadoEm": "2026-07-04T19:48:34-03:00",
+    "status": "publicado"
+  }
+]

@@ -1,0 +1,411 @@
+[2026-06-05T01:18:34-03:00] Nenhum post novo para processar.
+
+#############################################################
+
+[2026-06-05T17:10:40-03:00] Execução concluída | Novos processados: 0 | Ignorados: 5
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7457041364720001024/
+* Post já curtido (liked: true) — adicionado a posts_processados.json e ignorado (LinkedIn Live: Webinar - Gestão Estratégica na Experiência do Paciente)
+
+#############################################################
+
+[2026-06-06T17:16:13-03:00] Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7468780168283844608/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Que conteúdo rico! A conversa sobre CX em serviços essenciais traz insights muito práticos para quem busca colocar o cliente no centro todos os dias. 💚"
+* Compartilhamento: feito
+   * Texto: "Podcasts sobre CX estão se tornando um canal valioso para quem quer aprender com casos reais. Quando gestores de empresas de serviços essenciais compartilham seus desafios abertamente, isso acelera o aprendizado de toda a comunidade. Esse episódio sobre experiência do cliente em serviços essenciais vale muito a pena! 💚"
+
+#############################################################
+
+2026-06-08T11:45:42-03:00 Nenhum post novo para processar.
+2026-06-08T17:16:55-03:00 Erro: extensão Claude in Chrome não está conectada ao navegador. Não foi possível acessar o LinkedIn.
+
+[2026-06-09T12:12:59-03:00] Execução concluída | Novos processados: 1 | Ignorados: 7
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7470092895207747584/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Que notícia incrível! Estar no maior evento de tecnologia da América Latina como expositor é o reconhecimento de quem já coloca o cliente no centro de forma consistente. 💚"
+* Compartilhamento: feito
+   * Texto: "Eventos como o Web Summit Rio são momentos únicos para quem trabalha com tecnologia e inovação. Ver uma plataforma de CX marcando presença como expositora nesse cenário reforça que colocar o cliente no centro não é apenas uma tendência, é uma vantagem competitiva real. Como sua empresa está se preparando para esse movimento? 💚"
+
+#############################################################
+
+2026-06-09T12:29:18-03:00 Nenhum post novo para processar.
+2026-06-09T12:47:05-03:00 Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7470092895207747584/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Participar de um evento desse porte como expositor é a melhor forma de mostrar, na prática, como a tecnologia que desenvolvemos realmente impacta a experiência do cliente. 💚"
+* Compartilhamento: feito
+   * Texto: "Grandes eventos de tecnologia são laboratórios ao vivo: você coloca a solução na frente do mercado e mede a resposta em tempo real. Estaremos no Web Summit Rio como expositores para mostrar, na prática, como a IA transforma a gestão de CX. Se você vai ao evento, passa no estande! 💚"
+
+#############################################################
+
+2026-06-09T15:05:54-03:00 Erro: falha ao criar tab group no Chrome (tabs_context_mcp retornou "Failed to query tabs: No group with id"). Não foi possível acessar o LinkedIn. Verifique se o Chrome está aberto e a extensão Claude in Chrome está ativa.
+
+#############################################################
+
+[2026-06-13T15:09:48-03:00] Nenhum post novo para processar.
+
+#############################################################
+
+2026-06-14T15:11:13-03:00 Nenhum post novo para processar.
+
+2026-06-15T15:10:24-03:00 Nenhum post novo para processar.
+2026-06-16T15:09:06-03:00 Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7472710002160422912/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Centralidade do Cliente vai muito além do discurso: ela redefine como priorizamos funcionalidades e como medimos sucesso no produto. Esse episódio vai ser imperdível! 💚"
+* Compartilhamento: feito
+   * Texto: "Uma das perguntas mais difíceis de responder no produto é: a centralidade do cliente é valor declarado ou valor operacional? Quando essa diferença entra em discussões de roadmap e arquitetura, tudo muda. Esse episódio traz exatamente o tipo de reflexão que faz a diferença. 💚"
+
+#############################################################
+
+[2026-06-20T11:00:54-03:00] Execução concluída | Novos processados: 2 | Ignorados: 3
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7473796998715002881/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Transformar escuta em ação consistente exige mais do que ferramentas: exige que produto e negócio priorizem juntos a partir dos mesmos dados. 💚"
+* Compartilhamento: feito
+   * Texto: "A pergunta do webinar é a mais difícil de responder em qualquer empresa orientada a produto: como garantir que a voz do cliente realmente move prioridades, não apenas relatórios? Estratégia, cultura e IA têm papéis distintos nessa equação, e esse webinar vai exatamente nessa direção. Vale reservar a agenda. ✅"
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7473110118776287233/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "O que torna a análise de sentimento realmente útil é quando ela alimenta decisões de produto em tempo real, não só relatórios mensais. Esse é o diferencial que constrói fidelização de verdade. ✅"
+* Compartilhamento: feito
+   * Texto: "A analogia com o futebol diz muito: times que vencem consistentemente não improvisam, eles analisam dados para construir jogadas com antecedência. No CX é igual: análise de sentimento, personalização e omnichannel só geram resultado quando conectados a uma estratégia clara. Sua empresa já tem essas peças integradas? 💚"
+
+#############################################################
+
+[2026-06-23T15:09:51-03:00] Erro: extensão do Chrome desconectada — não foi possível navegar para o LinkedIn. Nenhuma interação realizada.
+
+#############################################################
+
+2026-06-24T15:09:15-03:00 Erro: não foi possível acessar o navegador. Chrome MCP sem tab group ativo ("Failed to query tabs: No group with id") e computer-use sem aplicações na allowlist (usuário ausente para aprovação). Execução abortada sem processar posts.
+
+#############################################################
+
+2026-06-25T22:39:47-03:00 Erro: extensão Claude in Chrome não está conectada ao navegador. Não foi possível acessar o LinkedIn. Execução abortada sem processar posts.
+
+#############################################################
+
+
+[2026-06-26T10:01:42-03:00] Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7475975326783885312/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "O salto de "o cliente está no centro" para tomar decisões difíceis com base nisso é onde a maioria das empresas tropeça. Esse episódio com Francisco Zapata vai direto nessa direção. 💚"
+* Compartilhamento: feito
+   * Texto: "Centralidade do cliente é fácil como valor declarado; o desafio aparece quando ela precisa guiar uma decisão de produto que vai contra uma métrica interna. Francisco Zapata explora exatamente esse gap neste episódio do podcast. Se você trabalha com CX ou roadmap de produto, esse papo vai ressoar muito. 💚"
+
+#############################################################
+
+
+[2026-06-26T13:48:00-03:00] Execução concluída | Novos processados: 1 | Ignorados: 0
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7476282771716567040/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Vivi esse dia de perto, e o que mais marca é ver o "time único" deixando de ser frase para virar prática."
+* Compartilhamento: feito
+   * Texto: "Passar um dia inteiro com o time, e ainda ter clientes dividindo a mesa, muda a forma como você enxerga o trabalho no dia seguinte. Fica evidente algo fácil de falar e difícil de sustentar: experiência boa para o cliente começa com gente que se sente valorizada por dentro. Levo desse encontro menos slides e mais senso de propósito comum. É isso que faz um time caminhar junto de verdade."
+
+#############################################################
+
+[2026-06-26T17:26:32-03:00] Execução TIMELINE (feed) concluída | Capturados: 52 | Curtidos: 8 | Comentados: 3
+
+Fonte: feed (https://www.linkedin.com/feed/). UI nova: scroll no <main>, posts = filhos de main [role=list], curtir = button[aria-label^="Estado do botão de reação"], editor de comentário = tiptap div[contenteditable][role=textbox], submit = button texto "Comentar". Hidratação React caía (#418) mas app interativo. urn não exposto no DOM (usado fallbackKey handle|idade|hash).
+
+CURTIDAS (8):
+* Filipe Deschamps (stakeholder) - carrossel "4 erros"
+* Mayk Brito - 6 meses sem codar + IA
+* Tiago Serra - RPA para automatizar decisoes
+* Ricardo Leite - time Anthropic gere prioridade em planilha
+* Codigo Fonte TV - custo do cibercrime / ataque a cadeia dev
+* Danilo Pereira De Luca - IA ajudando a refatorar
+* Eloysa Roodson - progresso backend (MulheresNaTech)
+* Leonardo Pallotta - Experience Lab Meetup (CX)
+
+COMENTARIOS (3, rascunho->aprovacao do usuario):
+* Mayk Brito
+   * Texto: "A parte que enferruja não é a digitação, é o modelo mental de como resolver o problema. Sem ele, ficamos reféns da ferramenta e perdemos o senso crítico para revisar o que ela entrega."
+* Tiago Serra
+   * Texto: "O pulo do gato é esse: automatizar decisão obriga o sistema a lidar com exceção e contexto, não só com o caminho feliz. Saber a hora de devolver para o humano vira parte do design, não falha dele."
+* Ricardo Leite
+   * Texto: "Faz sentido: em ambiente que muda rápido, o valor está na cadência de revisão, não na ferramenta. Planejamento de seis meses vira ficção; horizonte curto e revisão semanal mantêm a prioridade colada na realidade."
+
+#############################################################
+
+[2026-06-26T17:34:08-03:00] Postagem pessoal | Fonte: comunidade | Pilar: ia-dados | Posts na semana: 1/3
+
+* Status: publicado
+* Imagem: posts_gerados/analise-sentimento-decisao/imagem.png
+* Texto:
+"Coletar feedback do cliente ficou fácil. Transformar em decisão antes do estrago é que separa os times.
+
+Quase toda empresa hoje captura opinião em escala. Pesquisa, avaliação, comentário, menção em rede. O volume não é mais o problema.
+
+O problema é o tempo entre o sinal e a ação. Análise de sentimento que aponta um cliente insatisfeito no relatório do mês seguinte não evitou nada. O churn já aconteceu.
+
+O valor real aparece quando a leitura do sentimento chega na frente: vira alerta, vira prioridade, vira uma conversa antes do cancelamento. Aí o dado deixa de ser retrovisor e vira direção. 🟢
+
+A parte técnica difícil não é classificar o texto. É reduzir a distância entre perceber e agir.
+
+Onde está a maior demora no seu fluxo de feedback: em capturar, em entender ou em reagir?"
+* Hashtags: #inteligenciaartificial #dados #experienciadocliente #nlp
+* Permalink: https://www.linkedin.com/feed/update/urn:li:activity:7476371714147426304/
+
+#############################################################
+
+[2026-06-27T12:12:00-03:00] Execução TIMELINE (feed) concluída | Capturados: 37 | Curtidos: 5 | Comentados: 3
+
+Fonte: feed (https://www.linkedin.com/feed/). UI mudou: botão de reação agora aria-label "Situação do botão de reação: nenhuma reação" (antes "Estado do botão de reação"); seletor atualizado p/ casar os dois. Nenhum stakeholder da lista apareceu no feed; seleção toda do grupo feed-relevante. urn capturado via outerHTML do nó após comentar (toffanin/quaresma); jaques sem urn no DOM (fallbackKey). Publicação de comentário via browser_click por selector (data-submit), não evaluate.
+
+CURTIDAS (5):
+* Henrique Toffanin (feed-relevante) - "melhor linha de codigo e a que voce decide nao escrever"
+* Vitor Quaresma (feed-relevante) - tech lead achar que esta pronto pra CTO
+* Leonardo Jaques (feed-relevante) - self-hosting vs nuvem, economia/trade-offs
+* Vitor Gabriel Glegorio (feed-relevante) - IA vs devs / vibecoder
+* Jonas Corteletti (feed-relevante) - base de conhecimento versionada p/ contexto de IA
+
+COMENTARIOS (3, aprovados pelo usuario):
+* Henrique Toffanin (urn:li:activity:7476635470697865217)
+   * Texto: "Curioso como o código que você não escreve não aparece em métrica nenhuma, mas é o que menos quebra em produção. Decidir não construir exige mais convicção do que entregar a feature."
+* Vitor Quaresma (urn:li:activity:7476242701173309441)
+   * Texto: "O que vira armadilha é justamente o que faz um bom tech lead: a obsessão por estar tecnicamente certo. No nível de CTO, alinhar gente e conviver com decisão imperfeita pesam mais do que ter a melhor resposta."
+* Leonardo Jaques (urn: n/d)
+   * Texto: "O cálculo que costuma faltar nessa conta é o custo operacional: uma máquina barata que exige sua atenção de madrugada deixou de ser barata. A pergunta não é quanto se economiza, é qual responsabilidade você está disposto a absorver."
+
+#############################################################
+
+[2026-06-28T13:48:00-03:00] Execução TIMELINE (feed) concluída | Capturados: 22 | Curtidos: 6 | Comentados: 3
+
+Fonte: feed (https://www.linkedin.com/feed/). Nenhum stakeholder da lista apareceu no feed; seleção toda do grupo feed-relevante. 22 posts únicos via scroll no <main> (4 passos). Curtir via button[aria-label*="botão de reação"] (.click confirmado virando "Gostei"). Comentários publicados via browser_click no submit marcado (data-tlsubmit), editor tiptap. urn capturado p/ Nicolas (outerHTML do nó); Alessandra e Laércio sem urn no DOM (fallbackKey). Promovidos/off-topic/sensível/open-to-work descartados na seleção.
+
+CURTIDAS (6):
+* Luanderson Oliveira (feed-relevante) - HackaTruck/Swift/IA/IoT, app final ReceitAI
+* Nicolas Rodrigues (feed-relevante) - novo método HTTP QUERY (RFC) p/ busca no back-end
+* Francisco Neto (feed-relevante) - governança/segurança de IA antes da reunião de board
+* Alessandra Bichler Rabin (feed-relevante) - liderança CX/CS, processo de escrever um livro
+* Gabriel Vinícius Silva (feed-relevante) - cloud scaling, caso da pré-venda do GTA 6
+* Laércio de Sant' Anna Filho (feed-relevante) - MCP server em Java, build com Claude Code
+
+COMENTARIOS (3, aprovados pelo usuario):
+* Nicolas Rodrigues (urn:li:activity:7475679591513374721)
+   * Texto: "O ganho maior do QUERY nem é fugir do limite da URL. É recuperar a semântica que faltava, uma busca idempotente e cacheável sem fingir que POST é leitura."
+* Alessandra Bichler Rabin (urn: n/d)
+   * Texto: "Escrever obriga a transformar o que virou intuição em algo que outra pessoa consegue seguir, e liderança que não documenta o próprio raciocínio acaba presa em quem a exerce."
+* Laércio de Sant' Anna Filho (urn: n/d)
+   * Texto: "Faz todo sentido ir onde o dado de verdade mora. O conteúdo de IA corre atrás do que é novo, mas a integração que muda o jogo é a que alcança o sistema legado que já roda a operação há anos."
+
+#############################################################
+
+[2026-06-28T14:05:00-03:00] Correção pós-feedback do usuário | Comentário da Alessandra Bichler Rabin removido pelo usuário.
+
+Motivo: a frase "liderança que não documenta o próprio raciocínio acaba presa em quem a exerce" fala de forma negativa de um grupo e cria atrito. Curtida mantida (13 reações, "Gostei"). Estado revertido: Alessandra acao=["curtir"], comentario=null. Nova regra adicionada ao _shared (seção 2): "Enquadramento positivo (não alienar pessoa nem grupo)" — vale para as 3 skills.
+
+Versão corrigida (positiva, NÃO publicada, aguardando decisão): "Escrever obriga a transformar o que virou intuição em algo que outra pessoa consegue seguir, e quando a liderança documenta o próprio raciocínio, multiplica o time e faz o conhecimento circular além de quem o criou."
+
+#############################################################
+
+[2026-06-28T14:10:00-03:00] Execução TIMELINE (feed) concluída | Capturados: 23 | Curtidos: 8 | Comentados: 3
+
+Selecão: grupo feed-relevante (nenhum autor da lista de stakeholders nem empresa-relacionada apareceu no feed). 7 posts promovidos descartados. Janela de 7 dias respeitada. Sem duplicatas com o anti-dup.
+
+CURTIDAS (8):
+* Gustavo Henrique Monteiro (feed-relevante) - governança/arquitetura, metáfora "dinossauros soltos"
+* Sergio Sanchez Lima Silva (feed-relevante) - IA agêntica na experiência do cliente
+* Ezequiel Magalhães (feed-relevante) - lib open source Tracelapse, 1.400 downloads
+* Vicente S. Neto (feed-relevante) - liderança de dados, post pessoal/emotivo (só curtida, tom sóbrio)
+* Alexandre G. (feed-relevante) - dica de trabalho remoto, orquestração de LLMs
+* Diego Rondon (feed-relevante) - headhunter, entrevista de dois VPs de Operações
+* Daniel Wilson Alves dos Santos (feed-relevante) - meme "se cada dev fosse uma seleção"
+* Alura (feed-relevante) - notícia sobre bloqueio de modelos de IA
+
+COMENTARIOS (3, aprovados pelo usuario - "publicar todos"):
+* Gustavo Henrique Monteiro (urn: n/d, fallbackKey gustavo-henrique-monteiro-8ba646a5|3 d|507e14c2)
+   * Texto: "Governança boa não trava o time, ela dá o trilho pra ganhar velocidade com segurança. Regras explícitas e visíveis aumentam a autonomia porque cada um sabe até onde pode ir sem precisar pedir permissão a cada passo."
+* Sergio Sanchez Lima Silva (urn: n/d, fallbackKey marcelo-moreira-velloso|2 d|c78483e6)
+   * Texto: "O salto da IA agêntica está em sair da resposta para a ação. O ganho aparece quando o agente também sabe a hora de devolver para a pessoa, porque é isso que sustenta a confiança na jornada."
+* Ezequiel Magalhães (urn: n/d, fallbackKey leandrobiazao|3 d|170f47a6)
+   * Texto: "Mil e quatrocentas pessoas confiando numa lib nova já dizem muito sobre o problema que ela resolve. Trace que nasce de uma dor real costuma alcançar o que as ferramentas genéricas deixam passar."
+
+Nova regra de escrita aplicada e gravada no _shared (seção 2): "Evitar 'e' logo após vírgula" — quebrar em duas frases (ponto final). Vale para as 3 skills.
+
+#############################################################
+
+[2026-06-28T14:35:00-03:00] Postagem pessoal | Fonte: educativo (trending pivotado) | Pilar: full-stack | Posts na semana: 2/3
+
+* Status: publicado
+* Tema: conteúdo educativo de ciência da computação (concorrência vs paralelismo) - preferência do usuário registrada na memória
+* Imagem: posts_gerados/concorrencia-vs-paralelismo/imagem.png (card de conceito, paleta azul)
+* Texto:
+"Concorrência e paralelismo parecem sinônimos. Tratá-los como a mesma coisa explica boa parte dos bugs de performance.
+
+A diferença cabe numa cena de cafeteria.
+
+Concorrência é um barista sozinho tocando três pedidos. Ele começa um café, vai anotar o próximo enquanto a água esquenta, volta para o primeiro. Uma pessoa, várias tarefas em progresso.
+
+Paralelismo é três baristas trabalhando, cada um no seu pedido, ao mesmo tempo de verdade.
+
+Concorrência é lidar com muitas coisas ao mesmo tempo. Paralelismo é fazer muitas coisas ao mesmo tempo. Parecido na frase, distante na máquina.
+
+Um existe sem o outro. Um servidor de thread única segura milhares de conexões concorrentes sem nenhum paralelismo. Um cálculo pesado dividido entre vários núcleos é paralelo sem precisar de concorrência.
+
+Na prática, o que muda é onde está o gargalo. Quando a espera domina (rede, disco, banco), concorrência libera a CPU para outra tarefa enquanto uma aguarda. Quando o processamento domina, só mais núcleos trabalhando juntos aceleram.
+
+Saber qual dos dois o problema pede evita jogar complexidade no lugar errado.
+
+E aí, o seu gargalo costuma ser espera ou processamento?"
+* Hashtags: #cienciadacomputacao #engenhariadesoftware #programacao #concorrencia
+* Permalink: https://www.linkedin.com/feed/update/urn:li:activity:7477051963986149377/
+
+Nota tecnica: composer do LinkedIn agora renderiza dentro de shadow DOM (#interop-outlet). Editor/botoes ficam no shadowRoot; document.querySelector nao alcanca. Marcar elementos via host.shadowRoot e usar locator (Playwright pierce shadow por CSS). Anchor "Começar publicação" pode ser bloqueado por overlay de video; abrir composer e seguir no shadow root.
+
+#############################################################
+
+[2026-06-28T15:07:00-03:00] Execução concluída | Novos processados: 1 | Ignorados: 4
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7477055289217867778/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Quando o time reúne vivências diferentes, surgem perspectivas que melhoram tanto as decisões quanto a experiência entregue ao cliente. 🌈"
+* Compartilhamento: feito
+   * Texto: "O Dia do Orgulho LGBTQIA+ lembra que ambiente seguro não é pauta paralela à entrega. É justamente o que sustenta times capazes de construir boas experiências para o cliente. Repertórios diferentes trazem perguntas diferentes, que levam a decisões de produto mais próximas de quem usa o serviço. Que estruturas a sua empresa tem criado para que cada pessoa possa contribuir sendo quem é?"
+
+#############################################################
+
+[2026-06-29T21:20:00-03:00] Execução TIMELINE (feed) concluída | Capturados: 26 | Curtidos: 8 | Comentados: 3
+
+Seleção: grupo feed-relevante (nenhum autor da lista de stakeholders nem empresa-relacionada apareceu no feed). 7 posts promovidos descartados (Google Cloud, Open Systems, FIAP, Full Cycle, Grupo TMRC, Fundepag, LinkedIn). Off-topic e fora da janela de 7 dias descartados (Alvarino 3 sem, Bruno Jerônimo 2 sem, aniversários, Enem, RH/farmácia). Sensível (Aline Folster, busca de emprego) não interagido. Sem duplicatas com o anti-dup. Curtir via button[aria-label*="botão de reação"] (.click confirmado virando "Gostei"). Comentários publicados via browser_click no submit marcado (data-tlsubmit), editor tiptap. urn não exposto no DOM para os 3 (fallbackKey handle|idade|hash).
+
+CURTIDAS (8):
+* Gustavo Costa (feed-relevante) - OKF + plugin claude-mega-brain, contexto estruturado p/ agentes de IA
+* Karina Mariath (feed-relevante) - aplicar IA vs compreender como funciona (analogia dirigir vs consertar)
+* Afonso Yamaguchi (feed-relevante) - FT: dev ficou rápido, gargalo virou competição pela atenção
+* Carlos Eduardo Paulino (feed-relevante) - IA criatividade vs rigor do compilador, fluxo híbrido (Delphi)
+* Bruno Carrilhos (feed-relevante) - CTO Eficify, propósito/amizade/foco
+* Rinha de Backend (feed-relevante) - comunidade backend no Discord + IA nas próximas edições
+* Davi Fontebasso (feed-relevante) - priorização/gestão, metáfora dos microcosmos
+* Nathália Andrechuc Barbosa Abinajm (feed-relevante) - novo emprego como BP na V8.TECH (positivo)
+
+COMENTARIOS (3, aprovados pelo usuario - "aprovo todos os 3"):
+* Gustavo Costa (urn: n/d, fallbackKey pedro-farbo|5 h|33a5dd22)
+   * Texto: "Contexto estruturado resolve metade do problema. A outra metade é curadoria, porque injetar o projeto inteiro vira ruído e o que faz o agente acertar é o sinal certo na janela certa, não o volume."
+* Karina Mariath (urn: n/d, fallbackKey karina-mariath|11 h|5f7a254b)
+   * Texto: "A analogia segura bem. A diferença não aparece quando a IA funciona, aparece quando a luz do painel acende, no erro plausível que ela entrega com toda a confiança e que só quem entende o funcionamento consegue pegar."
+* Afonso Yamaguchi (urn: n/d, fallbackKey eduardo-nor%C3%B5es-834854a6|12 h|93305773)
+   * Texto: "Quando construir fica barato, construir deixa de ser a vantagem. A atenção do usuário se ganha resolvendo uma dor real e provando que resolveu, trabalho que a IA não tornou mais fácil."
+
+#############################################################
+
+[2026-07-01T09:32:41-03:00] Nenhum post novo para processar. | Extraídos: 5 | Todos já curtidos e em posts_processados.json | Ignorados: 5
+
+#############################################################
+
+
+#############################################################
+
+[2026-07-01T10:16:00-03:00] Execução concluída | Novos processados: 1 | Ignorados: 4
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7478066597224669184/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Chegar aos 17 anos com pessoas que acompanharam quase toda a jornada é raro no mercado de tecnologia. Esse repertório acumulado é o que sustenta a qualidade da entrega ao longo do tempo."
+* Compartilhamento: feito
+   * Texto: "Num mercado de tecnologia que se reinventa a cada poucos anos, chegar aos 17 com parte do time desde quase o começo diz muito sobre o ambiente construído. Esse tipo de longevidade não vem por acaso. Ela nasce de pessoas que permanecem tempo suficiente para acumular contexto e transformar experiência em decisões melhores para o cliente. Que ambiente a sua empresa tem criado para que as pessoas queiram construir uma história tão longa?"
+
+#############################################################
+
+[2026-07-01T10:22:00-03:00] Ajuste pós-feedback | Post 7478066597224669184: compartilhamento editado no LinkedIn para remover a pergunta final dirigida a outras empresas.
+* Novo fecho: "É esse ambiente, o que faz as pessoas quererem ficar e crescer, que sustenta um trabalho consistente ao longo do tempo."
+
+#############################################################
+[2026-07-02T20:13:00-03:00] Postagem pessoal | Fonte: trending | Pilar: atualidades | Posts na semana: 1/3
+
+* Status: publicado
+* Imagem: posts_gerados/novos-papeis-engenharia-ia/imagem.png
+* Texto:
+"Prompt engineer, context designer, especialista em governança de IA. A lista de cargos novos de engenharia cresce toda semana em 2026.
+
+Fácil ler isso como corrida atrás do título da moda. Acho que é a leitura errada.
+
+O que muda não é o crachá. É onde mora o valor do trabalho.
+
+Quando o agente escreve a primeira versão do código em segundos, a parte escassa deixa de ser digitar. Passa a ser decidir o que construir, dar o contexto certo e responder pela qualidade e pelo risco do que foi gerado.
+
+Isso sempre foi engenharia de verdade. A diferença é que agora aparece no centro, sem o código manual escondendo o resto.
+
+Quem investe em julgamento, arquitetura e comunicação clara de intenção multiplica o próprio alcance. Conduz vários agentes ao mesmo tempo e continua dono das decisões que importam.
+
+Os nomes dos cargos vão mudar de novo. A habilidade por baixo deles é a que vale a pena treinar.
+
+Se você fosse investir em uma só capacidade para os próximos anos, qual escolheria?"
+* Hashtags: #inteligenciaartificial #engenhariadesoftware #carreiraemtech #agentesdeia
+* Permalink: https://www.linkedin.com/feed/update/urn:li:activity:7478586400494407680/
+
+#############################################################
+
+[2026-07-04T19:48:34-03:00] Postagem pessoal | Fonte: comunidade/educativo | Pilar: full-stack | Posts na semana: 2/3
+
+* Status: publicado
+* Tema: conteúdo educativo de engenharia de software (idempotência) - preferência do usuário registrada na memória; rotacionou pilar (último foi atualidades)
+* Imagem: posts_gerados/idempotencia/imagem.png (card de conceito, paleta azul)
+* Texto:
+"Clicar duas vezes em "pagar" não deveria cobrar duas vezes. Idempotência é o nome dessa garantia.
+
+Toda rede falha em algum momento. A requisição sai, a resposta se perde, o cliente tenta de novo. A pergunta é o que acontece na segunda tentativa.
+
+Uma operação idempotente pode rodar uma ou dez vezes e o resultado final é o mesmo.
+
+Pensa no botão do elevador. Apertar cinco vezes não faz o elevador chegar mais rápido. O primeiro toque registrou a chamada, os outros não mudam nada.
+
+Criar um pedido sem essa proteção é o oposto. Dois cliques, dois pedidos. Um retry automático da rede, cobrança duplicada.
+
+Na prática, a saída costuma ser uma chave de idempotência. O cliente manda um identificador único na operação. O servidor guarda o resultado da primeira execução e devolve essa mesma resposta se a chave voltar, em vez de rodar tudo de novo.
+
+Isso muda o projeto do sistema. Retry deixa de ser risco e vira comportamento seguro. A fila pode reentregar a mensagem, o webhook pode chegar em dobro. Nada disso quebra.
+
+O detalhe é que idempotência não vem de graça. Ela se projeta na operação, não se adiciona depois.
+
+Onde você já se queimou com uma operação que rodou duas vezes sem querer?"
+* Hashtags: #engenhariadesoftware #backend #arquiteturadesoftware #sistemasdistribuidos
+* Permalink: https://www.linkedin.com/feed/update/urn:li:share:7479304992940601344/
+
+Nota tecnica: composer no shadow DOM (#interop-outlet), editor Quill (.ql-editor, nao tiptap desta vez). Texto inserido via browser_type -> page.locator('.ql-editor').fill() (Playwright fura shadow DOM aberto por CSS); Quill sincronizou (ql-blank removido, Publicar habilitou). Imagem: botao "Adicionar mídia" -> file_upload -> "Avançar". Permalink capturado como urn:li:share via link "Ver publicação" do toast.
+
+#############################################################
+
+[2026-07-04T20:23:29-03:00] Execução TIMELINE (feed) concluída | Capturados: 32 | Curtidos: 8 | Comentados: 3
+
+Fonte: feed (https://www.linkedin.com/feed/). Captura em 4 passos (scroll no <main>, acumulando em window.__tl), 32 posts únicos. 1 stakeholder da lista apareceu como AUTOR real (Filipe Deschamps); Tomás Duarte apareceu só como prova social ("parabenizou") em post de terceiro, não contado. Restante da seleção do grupo feed-relevante. Descartados: rants tóxicos (Matheus Cyntrão, Marco Mugnatto), celebrações pessoais/RH e off-topic, posts "1 sem" fora da janela de 7 dias, posts sem conteúdo. Nenhuma empresa-relacionada (nenhuma menção à INDECX). Sem duplicatas com o anti-dup. Curtir via button[aria-label*="botão de reação"] (.click, confirmado virando "Gostei"). Comentários: editor tiptap div[contenteditable][role=textbox] (10 no DOM, um por post -> marcado data-tlbox p/ desambiguar; texto via .fill()); publicados via browser_click no submit marcado (data-tlsubmit, button texto "Comentar" sem aria-label), não por evaluate. urn não exposto no DOM para os 3 (fallbackKey handle|idade|hash).
+
+CURTIDAS (8):
+* Filipe Deschamps (stakeholder, comunidade-tech) - Zuckerberg/ritmo de agentes de IA (via Reuters)
+* Leo Cavalcante (feed-relevante) - máquina de dev = superfície de produção, postmortem Nx Console
+* Sergio Andrade (feed-relevante) - agente que usa a tela como humano precisa ser auditado como humano
+* Vanessa Simões (feed-relevante) - Prosus, 60 mil agentes de IA, mudar forma de trabalhar > modelos
+* Gabriel Gripp (feed-relevante) - IA escrevendo código com as diretrizes e segurança certas
+* André Backes (feed-relevante) - distância de Levenshtein p/ detectar código de IA parecido (educativo)
+* Rafael de Morais (feed-relevante) - empresa pequena operar com capacidade muito maior via IA
+* André Martins (feed-relevante) - "o futuro da programação é não programar?" (já estava "Gostei")
+
+COMENTARIOS (3, aprovados pelo usuario - "aprovado todos"):
+* Filipe Deschamps (urn: n/d, fallbackKey filipedeschamps|1 d|6babbd7)
+   * Texto: "Contar com uma capacidade que a tecnologia ainda não entregou para justificar corte é planejar cronograma em cima de promessa. O resultado mais consistente tem vindo de quem usa os agentes para ampliar o time que já existe, em vez de antecipar decisões que a maturidade da ferramenta ainda não sustenta."
+* Leo Cavalcante (urn: n/d, fallbackKey vedovelli|1 d|3d9d28c2)
+   * Texto: "O que o incidente escancara é que a máquina de dev guarda credencial com alcance de produção, então o raio de dano nunca foi o de um notebook comum. Tratar esse ambiente com o mesmo rigor de produção, com token de vida curta e escopo mínimo, encolhe a janela que um pacote comprometido consegue explorar."
+* Sergio Andrade (urn: n/d, fallbackKey sergio-andrade-72729070|1 d|f312cf69)
+   * Texto: "Se o agente age como usuário, ele precisa de identidade própria e de uma trilha de quem autorizou cada ação. O ponto que costuma faltar é a reversibilidade, porque auditar depois só vale se dá para desfazer o que ele executou sob aquela credencial."
+
+#############################################################

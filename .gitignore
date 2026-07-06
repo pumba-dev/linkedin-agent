@@ -1,0 +1,14 @@
+# Credenciais — nunca commitar (chaves de API)
+.env
+
+# Artefatos temporários do browser MCP (snapshots, screenshots, console logs)
+.playwright-mcp/
+
+# Snapshots/screenshots temporários salvos na raiz durante execução das skills.
+# Padrões só na raiz (/) — não afetam imagens de post em posts_gerados/.
+/*-snap.yml
+/*-snapshot.yml
+/modal-check.png
+/pre-publish.png
+/post-publish.png
+/page-*.yml

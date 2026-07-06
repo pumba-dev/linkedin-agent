@@ -1,0 +1,432 @@
+[
+  {
+    "postId": null,
+    "fallbackKey": "filipedeschamps|1 sem|2172d264",
+    "autor": "Filipe Deschamps",
+    "perfil": "https://www.linkedin.com/in/filipedeschamps/",
+    "categoria": "comunidade-tech",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "maykbrito|1 sem|ac003166",
+    "autor": "Mayk Brito",
+    "perfil": "https://www.linkedin.com/in/maykbrito/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "A parte que enferruja não é a digitação, é o modelo mental de como resolver o problema. Sem ele, ficamos reféns da ferramenta e perdemos o senso crítico para revisar o que ela entrega.",
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "douglas-fideles|1 d|4976c747",
+    "autor": "Tiago Serra",
+    "perfil": "https://www.linkedin.com/in/tiagorodriguesserra/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "O pulo do gato é esse: automatizar decisão obriga o sistema a lidar com exceção e contexto, não só com o caminho feliz. Saber a hora de devolver para o humano vira parte do design, não falha dele.",
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "rolfilho|1 d|c47594c6",
+    "autor": "Ricardo Leite",
+    "perfil": "https://www.linkedin.com/in/rolfilho/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Faz sentido: em ambiente que muda rápido, o valor está na cadência de revisão, não na ferramenta. Planejamento de seis meses vira ficção; horizonte curto e revisão semanal mantêm a prioridade colada na realidade.",
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "codigofontetv|52 min|81a31662",
+    "autor": "Código Fonte TV",
+    "perfil": "https://www.linkedin.com/company/codigofontetv/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "daniellsantiago|2 d|dafc8a76",
+    "autor": "Danilo Pereira De Luca",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "luana-fernandes-807ba73b4|1 d|4ef76eff",
+    "autor": "Eloysa Roodson",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "rafaeljnascimento|8 h|5bc0a415",
+    "autor": "Leonardo Pallotta",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-26T17:16:58-03:00"
+  },
+  {
+    "postId": "urn:li:activity:7476635470697865217",
+    "fallbackKey": "henriquetoffanin|59 min|7e0c49f8",
+    "autor": "Henrique Toffanin",
+    "perfil": "https://www.linkedin.com/in/henriquetoffanin/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Curioso como o código que você não escreve não aparece em métrica nenhuma, mas é o que menos quebra em produção. Decidir não construir exige mais convicção do que entregar a feature.",
+    "data": "2026-06-27T12:05:00-03:00"
+  },
+  {
+    "postId": "urn:li:activity:7476242701173309441",
+    "fallbackKey": "carrilhos|1 d|82d5a13f",
+    "autor": "Vitor Quaresma",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "O que vira armadilha é justamente o que faz um bom tech lead: a obsessão por estar tecnicamente certo. No nível de CTO, alinhar gente e conviver com decisão imperfeita pesam mais do que ter a melhor resposta.",
+    "data": "2026-06-27T12:05:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "leonardojaques-dev|17 h|8052e31",
+    "autor": "Leonardo Jaques",
+    "perfil": "https://www.linkedin.com/in/leonardojaques-dev/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "O cálculo que costuma faltar nessa conta é o custo operacional: uma máquina barata que exige sua atenção de madrugada deixou de ser barata. A pergunta não é quanto se economiza, é qual responsabilidade você está disposto a absorver.",
+    "data": "2026-06-27T12:05:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "erick-firmo-24615b166|13 h|702fb532",
+    "autor": "Vitor Gabriel Dos Reis Glegorio",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-27T12:05:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "jcorteletti|4 d|503340d7",
+    "autor": "Jonas Corteletti",
+    "perfil": "https://www.linkedin.com/in/jcorteletti/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-27T12:05:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "luanderson-oliveira-83a1022bb|14 h|ec324350",
+    "autor": "Luanderson Oliveira",
+    "perfil": "https://www.linkedin.com/in/luanderson-oliveira-83a1022bb/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T13:48:00-03:00"
+  },
+  {
+    "postId": "urn:li:activity:7475679591513374721",
+    "fallbackKey": "ngracioli|3 d|82d9cf6c",
+    "autor": "Nicolas Rodrigues",
+    "perfil": "https://www.linkedin.com/in/ngracioli/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "O ganho maior do QUERY nem é fugir do limite da URL. É recuperar a semântica que faltava, uma busca idempotente e cacheável sem fingir que POST é leitura.",
+    "data": "2026-06-28T13:48:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "netoalves|48 min|c9ba9ade",
+    "autor": "Francisco Neto",
+    "perfil": "https://www.linkedin.com/in/netoalves/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T13:48:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "alessandrarabin|17 h|e3ec40e2",
+    "autor": "Alessandra Bichler Rabin",
+    "perfil": "https://www.linkedin.com/in/alessandrarabin/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T13:48:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "gabrielxvnx|22 h|8ae88233",
+    "autor": "Gabriel Vinícius Silva",
+    "perfil": "https://www.linkedin.com/in/gabrielxvnx/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T13:48:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "renatomachadodearaujo|6 d|445284e6",
+    "autor": "Laércio de Sant' Anna Filho",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Faz todo sentido ir onde o dado de verdade mora. O conteúdo de IA corre atrás do que é novo, mas a integração que muda o jogo é a que alcança o sistema legado que já roda a operação há anos.",
+    "data": "2026-06-28T13:48:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "gustavo-henrique-monteiro-8ba646a5|3 d|507e14c2",
+    "autor": "Gustavo Henrique Monteiro",
+    "perfil": "https://www.linkedin.com/in/gustavo-henrique-monteiro-8ba646a5/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Governança boa não trava o time, ela dá o trilho pra ganhar velocidade com segurança. Regras explícitas e visíveis aumentam a autonomia porque cada um sabe até onde pode ir sem precisar pedir permissão a cada passo.",
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "marcelo-moreira-velloso|2 d|c78483e6",
+    "autor": "Sergio Sanchez Lima Silva",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "O salto da IA agêntica está em sair da resposta para a ação. O ganho aparece quando o agente também sabe a hora de devolver para a pessoa, porque é isso que sustenta a confiança na jornada.",
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "alexandregois|3 d|added737",
+    "autor": "Alexandre G.",
+    "perfil": "https://www.linkedin.com/in/alexandregois/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "vsneto|1 d|b26416f0",
+    "autor": "Vicente S. Neto",
+    "perfil": "https://www.linkedin.com/in/vsneto/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "debora-lameza|4 d|5f2390e4",
+    "autor": "Diego Rondon",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "isaac-gomes-matos|3 d|bd2c59bf",
+    "autor": "Daniel Wilson Alves dos Santos",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "leandrobiazao|3 d|170f47a6",
+    "autor": "Ezequiel Magalhães",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Mil e quatrocentas pessoas confiando numa lib nova já dizem muito sobre o problema que ela resolve. Trace que nasce de uma dor real costuma alcançar o que as ferramentas genéricas deixam passar.",
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "aluracursos|2 d|2d187bae",
+    "autor": "Alura",
+    "perfil": "https://www.linkedin.com/company/aluracursos/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-28T14:10:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "eduardo-nor%C3%B5es-834854a6|12 h|93305773",
+    "autor": "Afonso Yamaguchi",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Quando construir fica barato, construir deixa de ser a vantagem. A atenção do usuário se ganha resolvendo uma dor real e provando que resolveu, trabalho que a IA não tornou mais fácil.",
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "pedro-farbo|5 h|33a5dd22",
+    "autor": "Gustavo Costa",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Contexto estruturado resolve metade do problema. A outra metade é curadoria, porque injetar o projeto inteiro vira ruído e o que faz o agente acertar é o sinal certo na janela certa, não o volume.",
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "karina-mariath|11 h|5f7a254b",
+    "autor": "Karina Mariath",
+    "perfil": "https://www.linkedin.com/in/karina-mariath/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "A analogia segura bem. A diferença não aparece quando a IA funciona, aparece quando a luz do painel acende, no erro plausível que ela entrega com toda a confiança e que só quem entende o funcionamento consegue pegar.",
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "carlosepaulino|2 d|33974ee0",
+    "autor": "Carlos Eduardo Paulino",
+    "perfil": "https://www.linkedin.com/in/carlosepaulino/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "carrilhos|5 d|11ab65d6",
+    "autor": "Bruno Carrilhos",
+    "perfil": "https://www.linkedin.com/in/carrilhos/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "mastersilvio|2 d|84b31b7f",
+    "autor": "Rinha de Backend",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "davifma|1 sem|bfa6d1df",
+    "autor": "Davi Fontebasso Marques de Almeida",
+    "perfil": "https://www.linkedin.com/in/davifma/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "carolina-martins-piombo-5013289|1 h|476b94a",
+    "autor": "Nathália Andrechuc Barbosa Abinajm",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-06-29T21:20:00-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "filipedeschamps|1 d|6babbd7",
+    "autor": "Filipe Deschamps",
+    "perfil": "https://www.linkedin.com/in/filipedeschamps/",
+    "categoria": "comunidade-tech",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Contar com uma capacidade que a tecnologia ainda não entregou para justificar corte é planejar cronograma em cima de promessa. O resultado mais consistente tem vindo de quem usa os agentes para ampliar o time que já existe, em vez de antecipar decisões que a maturidade da ferramenta ainda não sustenta.",
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "vedovelli|1 d|3d9d28c2",
+    "autor": "Leo Cavalcante",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "O que o incidente escancara é que a máquina de dev guarda credencial com alcance de produção, então o raio de dano nunca foi o de um notebook comum. Tratar esse ambiente com o mesmo rigor de produção, com token de vida curta e escopo mínimo, encolhe a janela que um pacote comprometido consegue explorar.",
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "sergio-andrade-72729070|1 d|f312cf69",
+    "autor": "Sergio Andrade",
+    "perfil": "https://www.linkedin.com/in/sergio-andrade-72729070/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir", "comentar"],
+    "comentario": "Se o agente age como usuário, ele precisa de identidade própria e de uma trilha de quem autorizou cada ação. O ponto que costuma faltar é a reversibilidade, porque auditar depois só vale se dá para desfazer o que ele executou sob aquela credencial.",
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "raffacabofrio|1 d|7ebedb63",
+    "autor": "Vanessa Simões",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "grippado|1 d|8d6f31f1",
+    "autor": "Gabriel Gripp",
+    "perfil": "https://www.linkedin.com/in/grippado/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "andr%C3%A9-backes|8 h|aaf6e57e",
+    "autor": "André Backes",
+    "perfil": "https://www.linkedin.com/in/andr%C3%A9-backes/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "msfranca|1 d|ffaeb2e6",
+    "autor": "Rafael de Morais",
+    "perfil": null,
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-07-04T20:23:29-03:00"
+  },
+  {
+    "postId": null,
+    "fallbackKey": "intentor|1 d|f0ab0f8a",
+    "autor": "André Martins",
+    "perfil": "https://www.linkedin.com/in/intentor/",
+    "categoria": "feed-relevante",
+    "acao": ["curtir"],
+    "comentario": null,
+    "data": "2026-07-04T20:23:29-03:00"
+  }
+]
