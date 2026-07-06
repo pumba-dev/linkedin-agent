@@ -574,7 +574,7 @@ Sincronizar o estado com o repositório privado (seção 7 do
 **[contexto compartilhado](../_shared/contexto-compartilhado.md)**):
 
 ```powershell
-pwsh -File mcp/git-sync.ps1 -Message "empresa: <N> posts interagidos (curtir+comentar+share)"
+& "C:\Users\eduar\github\linkedin-indecx-engajamento\mcp\git-sync.ps1" -Message "empresa: <N> posts interagidos (curtir+comentar+share)"
 ```
 
 ## Observações

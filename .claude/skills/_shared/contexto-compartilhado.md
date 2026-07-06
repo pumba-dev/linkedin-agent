@@ -261,10 +261,11 @@ limpar os temporários do browser (seção 4). Vale para sucesso **e** para falh
 parcial: se a ação no LinkedIn falhou mas o log/estado mudou, ainda sincroniza.
 
 **Como:** rodar o helper, que faz `add` só do estado/entregáveis, `commit` e `push`
-(nunca estada edições de skill/config nem o `.env`):
+(nunca estada edições de skill/config nem o `.env`). Roda no PowerShell 5.1 padrão
+(não precisa `pwsh`):
 
 ```powershell
-pwsh -File mcp/git-sync.ps1 -Message "<mensagem>"
+& "C:\Users\eduar\github\linkedin-indecx-engajamento\mcp\git-sync.ps1" -Message "<mensagem>"
 ```
 
 **Mensagem do commit** — curta, prefixada pela skill e dizendo o que aconteceu:

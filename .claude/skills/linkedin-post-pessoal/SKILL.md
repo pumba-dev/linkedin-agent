@@ -342,7 +342,7 @@ repositório privado (seção 7 do
 **[contexto compartilhado](../_shared/contexto-compartilhado.md)**):
 
 ```powershell
-pwsh -File mcp/git-sync.ps1 -Message 'pessoal: post "<slug>" publicado'
+& "C:\Users\eduar\github\linkedin-indecx-engajamento\mcp\git-sync.ps1" -Message 'pessoal: post "<slug>" publicado'
 ```
 
 ## Lembretes

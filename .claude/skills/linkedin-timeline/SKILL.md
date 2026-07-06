@@ -282,7 +282,7 @@ Reaproveitar as regras de escrita do contexto compartilhado, nos dois papéis:
     **[contexto compartilhado](../_shared/contexto-compartilhado.md)**.
 11. **Persistir no Git.** Sincronizar o estado com o repositório privado (seção 7
     do **[contexto compartilhado](../_shared/contexto-compartilhado.md)**):
-    `pwsh -File mcp/git-sync.ps1 -Message "timeline: <N> interações (curtir+comentar) em stakeholders"`.
+    `& "C:\Users\eduar\github\linkedin-indecx-engajamento\mcp\git-sync.ps1" -Message "timeline: <N> interações (curtir+comentar) em stakeholders"`.
 
 ## Caminhos (resumo)
 
