@@ -437,3 +437,15 @@ E você, já parou para olhar o harness por trás da ferramenta que usa, ou só 
 Nota: imagem-gancho Aero-Pixel estabelecida como padrão; toda imagem agora por IA; HTML->PNG removido.
 
 #############################################################
+
+[2026-07-07T19:38:00-03:00] Execução concluída | Novos processados: 1 | Ignorados: 4
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7480330216754827264/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Começar um programa de Voz do Cliente do zero é menos sobre coletar tudo e mais sobre priorizar as poucas perguntas que já mudam uma decisão. Boa pauta para o episódio."
+* Compartilhamento: feito
+   * Texto: "Montar um programa de Voz do Cliente do zero costuma travar não na ferramenta, mas na primeira decisão sobre o que ouvir antes de tentar ouvir tudo. Quando a escuta nasce conectada a uma pergunta de negócio clara, cada feedback já entra no fluxo de decisão em vez de virar relatório parado. Esse episódio vai justamente na parte difícil, que é transformar o primeiro passo em método. Vale acompanhar quem está construindo isso na prática."
+
+#############################################################
+
