@@ -449,3 +449,11 @@ Nota: imagem-gancho Aero-Pixel estabelecida como padrão; toda imagem agora por 
 
 #############################################################
 
+
+[2026-07-15T17:29:37-03:00] Nenhum post novo para processar.
+
+* Post mais recente da pagina = urn:li:activity:7480330216754827264 (EP.03 INDECX Talks, ~08/jul), ja processado e curtido. Nenhum activityId maior (mais novo) apareceu na varredura.
+* Ordenacao "Recentes" indisponivel: o dropdown "Classificar por" nao renderiza as opcoes neste ambiente (Ember/artdeco nao monta a lista via clique sintetico nem via teclado). Varredura feita sobre a ordem "Populares".
+* Backlog antigo detectado (fora do escopo recente, nao interagido): posts nao curtidos de meses anteriores, ex. urn:li:activity:7364359288128962562 ("Premio Experiencia do Cliente 2025", ~mai/2025). Aguardando decisao do usuario antes de qualquer interacao.
+
+#############################################################
