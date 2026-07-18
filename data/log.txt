@@ -457,3 +457,17 @@ Nota: imagem-gancho Aero-Pixel estabelecida como padrão; toda imagem agora por 
 * Backlog antigo detectado (fora do escopo recente, nao interagido): posts nao curtidos de meses anteriores, ex. urn:li:activity:7364359288128962562 ("Premio Experiencia do Cliente 2025", ~mai/2025). Aguardando decisao do usuario antes de qualquer interacao.
 
 #############################################################
+
+[2026-07-18T13:53:00-03:00] Execucao TIMELINE (feed) ABORTADA | Feed degradado, captura impossivel | Capturados: 5 (abaixo do minimo 20) | Curtidos: 0 | Comentados: 0
+
+Nenhuma interacao realizada. Setup: extensao Claude nao esta em nenhum Chrome do usuario (list_connected_browsers/switch_browser vazios); Chrome 136+ (v150) bloqueia --remote-debugging-port no perfil default -> nao da pra dirigir o Chrome pessoal via CDP. Perfil dedicado (chrome-indecx-agent) na 9222 e o unico caminho viavel; relancado destacado (Start-Process, nao "& $chrome" que morre com o shell). Login do LinkedIn OK no perfil dedicado.
+
+BLOCKER (feed): build novo do feed com classes ofuscadas (_495513b8, etc.), SEM scaffold-finite-scroll, SEM data-finite-scroll-hotkey-item, SEM feed-shared-update-v2. React #418 (mismatch de hidratacao SSR) trava a paginacao: o wrapper de finite-scroll nao monta e a requisicao de proximo lote nunca dispara. "Principais" renderiza so ~3 posts (rotativos a cada reload) seguidos direto do rodape do site; "Recentes" (troca de sort funcionou desta vez, via div[role=button] + opcao "Recentes") renderiza ZERO posts.
+
+Tentativas de recuperacao (todas falharam em passar de 3 posts/tela): hard reload x4; espera longa 9s; resize (2400h -> nao rolavel; 900h -> rolavel mas sem novo lote); scroll incremental + WheelEvent + dispatch scroll; navegacao SPA ida-e-volta (mynetwork -> Inicio) p/ render client-side sem hidratacao; acumulacao via sessionStorage por reloads (chegou a 5 unicos, plateau, com 2 promovidos Full Cycle/Google Cloud + 1 fora da janela de 7 dias). Reloads rapidos em poucos minutos podem ter disparado throttle leve (dominancia de posts promovidos ao final).
+
+5 capturados (nao interagidos): Jessica Silva (2 sem, fora da janela), Full Cycle (Promovida), Anderson Amaral (3h, reshare de Raffaello Damgaard), Google Cloud (Promovida), Thiago Dumont (2d, AI Engineering, Sugestao). Amostra insuficiente e de baixo sinal -> nao interagido.
+
+Acao: abortado sem interagir (respeita minimo de 20 e a barra de qualidade). Recomendado tentar de novo mais tarde (feed/throttle podem se recuperar); se persistir, a tecnica de captura do SKILL precisa revalidacao p/ o build novo do feed (finite-scroll ausente).
+
+#############################################################
