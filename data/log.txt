@@ -471,3 +471,20 @@ Tentativas de recuperacao (todas falharam em passar de 3 posts/tela): hard reloa
 Acao: abortado sem interagir (respeita minimo de 20 e a barra de qualidade). Recomendado tentar de novo mais tarde (feed/throttle podem se recuperar); se persistir, a tecnica de captura do SKILL precisa revalidacao p/ o build novo do feed (finite-scroll ausente).
 
 #############################################################
+
+[2026-07-21T21:11:32-03:00] Erro: usuário não está logado no LinkedIn (perfil de debug chrome-indecx-agent). Execução abortada antes de capturar posts.
+
+#############################################################
+
+
+[2026-07-21T21:27:56-03:00] Execução concluída | Novos processados: 1 | Ignorados: 4
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7485031022485508099/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Ser finalista em CX e em IA ao mesmo tempo é o tipo de reconhecimento que raramente vem de um recurso isolado e sim de sustentar qualidade na escuta em escala. Parabéns pela conquista!"
+* Compartilhamento: feito
+   * Texto: "Ver uma mesma empresa entre os finalistas em categorias de Customer Experience e de Inteligência Artificial já diz bastante sobre a direção do mercado. Durante anos essas duas frentes andaram separadas, uma cuidando da relação com o cliente e a outra da tecnologia por trás. O que amadureceu foi a costura entre as duas, transformar o que o cliente diz em inteligência que orienta a decisão em escala. Reconhecimento nesse ponto de encontro é um bom sinal de que a escuta do cliente virou ativo estratégico de verdade."
+
+#############################################################
+
