@@ -488,3 +488,16 @@ Acao: abortado sem interagir (respeita minimo de 20 e a barra de qualidade). Rec
 
 #############################################################
 
+
+[2026-07-23T10:36:37-03:00] Execução concluída | Novos processados: 1 | Ignorados: 1
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7485759528072978432/
+* Curtida: feita (automática, confirmada)
+* Comentário: feito (publicado automático; usuário editou manualmente para o texto final abaixo — voz de engenheiro, sem opinar sobre metodologia de VoC)
+   * Texto: "Conteúdo que vale o play. Como quem constrói do lado técnico, acho que a parte mais interessante é fechar a distância entre o dado que chega e a ação que alguém toma a partir dele."
+* Compartilhamento: feito (manual — compositor não abria no build degradado do LinkedIn; usuário publicou à mão)
+   * Texto: "A parte mais difícil de um programa de Voz do Cliente quase nunca é a coleta. É transformar o que o cliente diz em uma ação que alguém no time realmente executa. Programas que começam pequenos, resolvem um problema concreto e mostram resultado ganham espaço bem mais rápido do que os que tentam medir tudo de uma vez. No fim, é essa disciplina de fechar o ciclo entre ouvir e agir que separa quem coleta feedback de quem constrói experiência."
+
+* Obs.: build novo do LinkedIn sem data-urn/feed-shared-update-v2; dados extraídos do cache Voyager em <code>. Cliques instáveis e compositor de reshare destruído por re-render (feed degradado).
+
+#############################################################
