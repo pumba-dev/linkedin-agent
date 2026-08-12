@@ -593,3 +593,32 @@ NOTAS TECNICAS (build novo + ambiente):
 
 #############################################################
 
+[2026-08-12T11:25:36-03:00] Postagem pessoal | Fonte: trending | Pilar: full-stack | Posts na semana: 1/3
+
+* Status: publicado
+* Imagem: posts_gerados/gargalo-code-review-ia/imagem.png (gancho, metafora+icone)
+* Texto:
+"Times que adotaram IA no fluxo abrem quase o dobro de pull requests. O tempo de revisão subiu quase na mesma proporção.
+
+O gargalo mudou de lugar.
+
+Escrever código ficou barato. Entender código continua custando o mesmo.
+
+Um número resume bem isso. Pull request gerado com ajuda de IA espera cerca de quatro vezes mais até alguém abrir. Depois que abre, a revisão corre rápido. A fila é que não anda.
+
+Faz sentido quando se olha o que revisar realmente exige. Ler o diff é a parte fácil. O trabalho pesado é reconstruir a intenção, entender por que aquela decisão foi tomada e o que ela move três camadas abaixo.
+
+Quando a geração acelera e o contexto não vem junto, cada revisor refaz esse raciocínio do zero.
+
+O que tenho visto funcionar não é revisar mais rápido. É baratear o entendimento.
+
+Pull request pequeno, com uma mudança só. O porquê escrito junto do código, não apenas o que mudou. E a primeira passada no superficial (estilo, teste faltando, caso de borda óbvio) pode ser automatizada, para que a atenção humana fique onde é insubstituível, na arquitetura e na regra de negócio.
+
+Quem escreve a intenção junto com o código multiplica a velocidade de todo mundo em volta.
+
+Desde que a IA entrou no seu fluxo, o que mudou na forma como vocês revisam?"
+* Hashtags: #engenhariadesoftware #codereview #inteligenciaartificial #techlead
+* Permalink: https://www.linkedin.com/feed/update/urn:li:share:7493311550364024832/
+* Observação: MCP chrome caiu no meio do fluxo (após digitar o texto); reconectado via /mcp e execução retomada sem perda.
+
+#############################################################

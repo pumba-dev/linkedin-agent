@@ -62,5 +62,21 @@
     "permalink": "https://www.linkedin.com/feed/update/urn:li:share:7480004628751933440/",
     "publicadoEm": "2026-07-06T18:08:00-03:00",
     "status": "publicado"
+  },
+  {
+    "id": "gargalo-code-review-ia",
+    "tipo": "trending",
+    "fonte": "trending: revisão de código como novo gargalo com código gerado por IA",
+    "pilar": "full-stack",
+    "texto": "Times que adotaram IA no fluxo abrem quase o dobro de pull requests. O tempo de revisão subiu quase na mesma proporção.\n\nO gargalo mudou de lugar.\n\nEscrever código ficou barato. Entender código continua custando o mesmo.\n\nUm número resume bem isso. Pull request gerado com ajuda de IA espera cerca de quatro vezes mais até alguém abrir. Depois que abre, a revisão corre rápido. A fila é que não anda.\n\nFaz sentido quando se olha o que revisar realmente exige. Ler o diff é a parte fácil. O trabalho pesado é reconstruir a intenção, entender por que aquela decisão foi tomada e o que ela move três camadas abaixo.\n\nQuando a geração acelera e o contexto não vem junto, cada revisor refaz esse raciocínio do zero.\n\nO que tenho visto funcionar não é revisar mais rápido. É baratear o entendimento.\n\nPull request pequeno, com uma mudança só. O porquê escrito junto do código, não apenas o que mudou. E a primeira passada no superficial (estilo, teste faltando, caso de borda óbvio) pode ser automatizada, para que a atenção humana fique onde é insubstituível, na arquitetura e na regra de negócio.\n\nQuem escreve a intenção junto com o código multiplica a velocidade de todo mundo em volta.\n\nDesde que a IA entrou no seu fluxo, o que mudou na forma como vocês revisam?",
+    "hashtags": ["#engenhariadesoftware", "#codereview", "#inteligenciaartificial", "#techlead"],
+    "imagem": "posts_gerados/gargalo-code-review-ia/imagem.png",
+    "imagemTipo": "gancho",
+    "imagemFormato": "metafora",
+    "imagemModelo": "gpt-image-2",
+    "imagemPrompt": "Pixel 8-bit, formato metáfora+ícone (esteira de fábrica despejando páginas de código num funil estreito, revisor com lupa no gargalo); manchete 'O GARGALO MUDOU DE LUGAR' + pills 'ESCREVER' -> 'REVISAR'; prompt completo em posts_gerados/gargalo-code-review-ia/post.md",
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:share:7493311550364024832/",
+    "publicadoEm": "2026-08-12T11:25:36-03:00",
+    "status": "publicado"
   }
 ]
