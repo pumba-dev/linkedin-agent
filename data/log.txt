@@ -622,3 +622,29 @@ Desde que a IA entrou no seu fluxo, o que mudou na forma como vocês revisam?"
 * Observação: MCP chrome caiu no meio do fluxo (após digitar o texto); reconectado via /mcp e execução retomada sem perda.
 
 #############################################################
+
+[2026-08-18T16:41:08-03:00] Postagem pessoal | Fonte: comunidade | Pilar: full-stack | Posts na semana: 1/3
+
+* Status: publicado
+* Imagem: posts_gerados/indice-banco-btree/imagem.png (gancho, formato afirmacao, gpt-image-2, Pixel 8-bit)
+* Texto:
+"A consulta caiu de oito segundos para vinte milissegundos. A query continuou igual. O que mudou foi o índice.
+
+Sem índice, o banco faz a única coisa que pode fazer. Lê a tabela inteira, linha por linha, testando cada registro.
+
+Com índice, ele passa a consultar uma estrutura ordenada que vive por fora dos dados. Em vez de percorrer milhões de linhas, desce por alguns níveis de comparação e chega direto no que interessa.
+
+É o índice do livro. Você não lê as trezentas páginas para achar um assunto. Vai na lista ordenada do fim e salta para a página certa.
+
+Aí vem a parte que rende menos aplauso. A ordem do índice manda. Um índice por sobrenome e depois nome encontra rápido quem você procura pelo sobrenome. Se a busca chegar só com o primeiro nome, aquela ordenação não ajuda, porque a lista não está organizada por ali. 🔎
+
+E cada índice cobra na escrita. Toda gravação precisa atualizar também as estruturas que apontam para aquele dado. Cinco índices na tabela são cinco manutenções em cada insert, mais o espaço em disco.
+
+Quem escolhe índice a partir das consultas que realmente rodam ganha nos dois lados. Leitura rápida onde importa, escrita leve no resto.
+
+Qual índice já te salvou de um incidente?"
+* Hashtags: #bancodedados #engenhariadesoftware #backend #performance
+* Permalink: https://www.linkedin.com/feed/update/urn:li:activity:7495565244002623488/
+* Observacao: UI nova do LinkedIn (classes ofuscadas). browser_click do MCP falhou no check de estabilidade; publicacao concluida via browser_run_code_unsafe com click force + filechooser. Prompt da imagem nao ficou registrado na geracao (imagemPrompt: null).
+
+#############################################################

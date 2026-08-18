@@ -5,7 +5,12 @@
     "fonte": "ia-dados",
     "pilar": "ia-dados",
     "texto": "Coletar feedback do cliente ficou fácil. Transformar em decisão antes do estrago é que separa os times.\n\nQuase toda empresa hoje captura opinião em escala. Pesquisa, avaliação, comentário, menção em rede. O volume não é mais o problema.\n\nO problema é o tempo entre o sinal e a ação. Análise de sentimento que aponta um cliente insatisfeito no relatório do mês seguinte não evitou nada. O churn já aconteceu.\n\nO valor real aparece quando a leitura do sentimento chega na frente: vira alerta, vira prioridade, vira uma conversa antes do cancelamento. Aí o dado deixa de ser retrovisor e vira direção. 🟢\n\nA parte técnica difícil não é classificar o texto. É reduzir a distância entre perceber e agir.\n\nOnde está a maior demora no seu fluxo de feedback: em capturar, em entender ou em reagir?",
-    "hashtags": ["#inteligenciaartificial", "#dados", "#experienciadocliente", "#nlp"],
+    "hashtags": [
+      "#inteligenciaartificial",
+      "#dados",
+      "#experienciadocliente",
+      "#nlp"
+    ],
     "imagem": "posts_gerados/analise-sentimento-decisao/imagem.png",
     "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7476371714147426304/",
     "publicadoEm": "2026-06-26T17:34:08-03:00",
@@ -17,7 +22,12 @@
     "fonte": "educativo: concorrência vs paralelismo (ciência da computação)",
     "pilar": "full-stack",
     "texto": "Concorrência e paralelismo parecem sinônimos. Tratá-los como a mesma coisa explica boa parte dos bugs de performance.\n\nA diferença cabe numa cena de cafeteria.\n\nConcorrência é um barista sozinho tocando três pedidos. Ele começa um café, vai anotar o próximo enquanto a água esquenta, volta para o primeiro. Uma pessoa, várias tarefas em progresso.\n\nParalelismo é três baristas trabalhando, cada um no seu pedido, ao mesmo tempo de verdade.\n\nConcorrência é lidar com muitas coisas ao mesmo tempo. Paralelismo é fazer muitas coisas ao mesmo tempo. Parecido na frase, distante na máquina.\n\nUm existe sem o outro. Um servidor de thread única segura milhares de conexões concorrentes sem nenhum paralelismo. Um cálculo pesado dividido entre vários núcleos é paralelo sem precisar de concorrência.\n\nNa prática, o que muda é onde está o gargalo. Quando a espera domina (rede, disco, banco), concorrência libera a CPU para outra tarefa enquanto uma aguarda. Quando o processamento domina, só mais núcleos trabalhando juntos aceleram.\n\nSaber qual dos dois o problema pede evita jogar complexidade no lugar errado.\n\nE aí, o seu gargalo costuma ser espera ou processamento?",
-    "hashtags": ["#cienciadacomputacao", "#engenhariadesoftware", "#programacao", "#concorrencia"],
+    "hashtags": [
+      "#cienciadacomputacao",
+      "#engenhariadesoftware",
+      "#programacao",
+      "#concorrencia"
+    ],
     "imagem": "posts_gerados/concorrencia-vs-paralelismo/imagem.png",
     "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7477051963986149377/",
     "publicadoEm": "2026-06-28T14:35:00-03:00",
@@ -29,7 +39,12 @@
     "fonte": "trending: novos papéis de engenharia na era dos agentes de IA",
     "pilar": "atualidades",
     "texto": "Prompt engineer, context designer, especialista em governança de IA. A lista de cargos novos de engenharia cresce toda semana em 2026.\n\nFácil ler isso como corrida atrás do título da moda. Acho que é a leitura errada.\n\nO que muda não é o crachá. É onde mora o valor do trabalho.\n\nQuando o agente escreve a primeira versão do código em segundos, a parte escassa deixa de ser digitar. Passa a ser decidir o que construir, dar o contexto certo e responder pela qualidade e pelo risco do que foi gerado.\n\nIsso sempre foi engenharia de verdade. A diferença é que agora aparece no centro, sem o código manual escondendo o resto.\n\nQuem investe em julgamento, arquitetura e comunicação clara de intenção multiplica o próprio alcance. Conduz vários agentes ao mesmo tempo e continua dono das decisões que importam.\n\nOs nomes dos cargos vão mudar de novo. A habilidade por baixo deles é a que vale a pena treinar.\n\nSe você fosse investir em uma só capacidade para os próximos anos, qual escolheria?",
-    "hashtags": ["#inteligenciaartificial", "#engenhariadesoftware", "#carreiraemtech", "#agentesdeia"],
+    "hashtags": [
+      "#inteligenciaartificial",
+      "#engenhariadesoftware",
+      "#carreiraemtech",
+      "#agentesdeia"
+    ],
     "imagem": "posts_gerados/novos-papeis-engenharia-ia/imagem.png",
     "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7478586400494407680/",
     "publicadoEm": "2026-07-02T20:13:00-03:00",
@@ -41,7 +56,12 @@
     "fonte": "educativo: idempotência (engenharia de software)",
     "pilar": "full-stack",
     "texto": "Clicar duas vezes em \"pagar\" não deveria cobrar duas vezes. Idempotência é o nome dessa garantia.\n\nToda rede falha em algum momento. A requisição sai, a resposta se perde, o cliente tenta de novo. A pergunta é o que acontece na segunda tentativa.\n\nUma operação idempotente pode rodar uma ou dez vezes e o resultado final é o mesmo.\n\nPensa no botão do elevador. Apertar cinco vezes não faz o elevador chegar mais rápido. O primeiro toque registrou a chamada, os outros não mudam nada.\n\nCriar um pedido sem essa proteção é o oposto. Dois cliques, dois pedidos. Um retry automático da rede, cobrança duplicada.\n\nNa prática, a saída costuma ser uma chave de idempotência. O cliente manda um identificador único na operação. O servidor guarda o resultado da primeira execução e devolve essa mesma resposta se a chave voltar, em vez de rodar tudo de novo.\n\nIsso muda o projeto do sistema. Retry deixa de ser risco e vira comportamento seguro. A fila pode reentregar a mensagem, o webhook pode chegar em dobro. Nada disso quebra.\n\nO detalhe é que idempotência não vem de graça. Ela se projeta na operação, não se adiciona depois.\n\nOnde você já se queimou com uma operação que rodou duas vezes sem querer?",
-    "hashtags": ["#engenhariadesoftware", "#backend", "#arquiteturadesoftware", "#sistemasdistribuidos"],
+    "hashtags": [
+      "#engenhariadesoftware",
+      "#backend",
+      "#arquiteturadesoftware",
+      "#sistemasdistribuidos"
+    ],
     "imagem": "posts_gerados/idempotencia/imagem.png",
     "permalink": "https://www.linkedin.com/feed/update/urn:li:share:7479304992940601344/",
     "publicadoEm": "2026-07-04T19:48:34-03:00",
@@ -53,7 +73,12 @@
     "fonte": "educativo: o que é o harness (ferramentas de código como o Claude Code)",
     "pilar": "atualidades",
     "texto": "A parte que faz o Claude Code parecer inteligente quase não é o modelo de IA.\n\nExplico. O modelo sozinho é um cérebro brilhante sem mãos nem olhos. Ele raciocina sobre código, mas não enxerga o seu projeto, não roda nada, não sabe se o que sugeriu funcionou.\n\nQuem dá mãos e olhos a esse cérebro é o harness. É a camada em volta do modelo que faz o trabalho pesado que ninguém vê.\n\nEle oferece ferramentas ao modelo (ler um arquivo, editar, rodar um comando no terminal), executa a ação de verdade e devolve o resultado. Aí vem o que muda tudo. O modelo lê essa saída, percebe o erro e tenta de novo. Um laço de tentar, observar e corrigir, parecido com o que você faz o dia inteiro.\n\nPor isso o mesmo modelo parece genial em uma ferramenta e limitado em outra. O que separa as duas é o harness, não o modelo. São as ferramentas que ele expõe, o contexto do projeto que entrega na hora certa e como fecha esse laço de feedback.\n\nEntender isso muda o seu uso. Você deixa de esperar mágica do modelo e passa a cuidar do que ele enxerga e do retorno que recebe. É aí que essas ferramentas rendem de verdade.\n\nModelo é o motor. Harness é o carro inteiro.\n\nE você, já parou para olhar o harness por trás da ferramenta que usa, ou só troca de modelo esperando um resultado melhor?",
-    "hashtags": ["#claudecode", "#agentesdeia", "#engenhariadesoftware", "#inteligenciaartificial"],
+    "hashtags": [
+      "#claudecode",
+      "#agentesdeia",
+      "#engenhariadesoftware",
+      "#inteligenciaartificial"
+    ],
     "imagem": "posts_gerados/harness-ferramentas-codigo/imagem.png",
     "imagemTipo": "gancho",
     "imagemFormato": "pergunta",
@@ -69,7 +94,12 @@
     "fonte": "trending: revisão de código como novo gargalo com código gerado por IA",
     "pilar": "full-stack",
     "texto": "Times que adotaram IA no fluxo abrem quase o dobro de pull requests. O tempo de revisão subiu quase na mesma proporção.\n\nO gargalo mudou de lugar.\n\nEscrever código ficou barato. Entender código continua custando o mesmo.\n\nUm número resume bem isso. Pull request gerado com ajuda de IA espera cerca de quatro vezes mais até alguém abrir. Depois que abre, a revisão corre rápido. A fila é que não anda.\n\nFaz sentido quando se olha o que revisar realmente exige. Ler o diff é a parte fácil. O trabalho pesado é reconstruir a intenção, entender por que aquela decisão foi tomada e o que ela move três camadas abaixo.\n\nQuando a geração acelera e o contexto não vem junto, cada revisor refaz esse raciocínio do zero.\n\nO que tenho visto funcionar não é revisar mais rápido. É baratear o entendimento.\n\nPull request pequeno, com uma mudança só. O porquê escrito junto do código, não apenas o que mudou. E a primeira passada no superficial (estilo, teste faltando, caso de borda óbvio) pode ser automatizada, para que a atenção humana fique onde é insubstituível, na arquitetura e na regra de negócio.\n\nQuem escreve a intenção junto com o código multiplica a velocidade de todo mundo em volta.\n\nDesde que a IA entrou no seu fluxo, o que mudou na forma como vocês revisam?",
-    "hashtags": ["#engenhariadesoftware", "#codereview", "#inteligenciaartificial", "#techlead"],
+    "hashtags": [
+      "#engenhariadesoftware",
+      "#codereview",
+      "#inteligenciaartificial",
+      "#techlead"
+    ],
     "imagem": "posts_gerados/gargalo-code-review-ia/imagem.png",
     "imagemTipo": "gancho",
     "imagemFormato": "metafora",
@@ -77,6 +107,27 @@
     "imagemPrompt": "Pixel 8-bit, formato metáfora+ícone (esteira de fábrica despejando páginas de código num funil estreito, revisor com lupa no gargalo); manchete 'O GARGALO MUDOU DE LUGAR' + pills 'ESCREVER' -> 'REVISAR'; prompt completo em posts_gerados/gargalo-code-review-ia/post.md",
     "permalink": "https://www.linkedin.com/feed/update/urn:li:share:7493311550364024832/",
     "publicadoEm": "2026-08-12T11:25:36-03:00",
+    "status": "publicado"
+  },
+  {
+    "id": "indice-banco-btree",
+    "tipo": "comunidade",
+    "fonte": "full-stack (educativo: índice de banco de dados)",
+    "pilar": "full-stack",
+    "texto": "A consulta caiu de oito segundos para vinte milissegundos. A query continuou igual. O que mudou foi o índice.\n\nSem índice, o banco faz a única coisa que pode fazer. Lê a tabela inteira, linha por linha, testando cada registro.\n\nCom índice, ele passa a consultar uma estrutura ordenada que vive por fora dos dados. Em vez de percorrer milhões de linhas, desce por alguns níveis de comparação e chega direto no que interessa.\n\nÉ o índice do livro. Você não lê as trezentas páginas para achar um assunto. Vai na lista ordenada do fim e salta para a página certa.\n\nAí vem a parte que rende menos aplauso. A ordem do índice manda. Um índice por sobrenome e depois nome encontra rápido quem você procura pelo sobrenome. Se a busca chegar só com o primeiro nome, aquela ordenação não ajuda, porque a lista não está organizada por ali. 🔎\n\nE cada índice cobra na escrita. Toda gravação precisa atualizar também as estruturas que apontam para aquele dado. Cinco índices na tabela são cinco manutenções em cada insert, mais o espaço em disco.\n\nQuem escolhe índice a partir das consultas que realmente rodam ganha nos dois lados. Leitura rápida onde importa, escrita leve no resto.\n\nQual índice já te salvou de um incidente?",
+    "hashtags": [
+      "#bancodedados",
+      "#engenhariadesoftware",
+      "#backend",
+      "#performance"
+    ],
+    "imagem": "posts_gerados/indice-banco-btree/imagem.png",
+    "imagemTipo": "gancho",
+    "imagemFormato": "afirmacao",
+    "imagemModelo": "gpt-image-2",
+    "imagemPrompt": null,
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7495565244002623488/",
+    "publicadoEm": "2026-08-18T16:41:08-03:00",
     "status": "publicado"
   }
 ]
