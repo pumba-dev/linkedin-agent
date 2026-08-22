@@ -648,3 +648,5 @@ Qual índice já te salvou de um incidente?"
 * Observacao: UI nova do LinkedIn (classes ofuscadas). browser_click do MCP falhou no check de estabilidade; publicacao concluida via browser_run_code_unsafe com click force + filechooser. Prompt da imagem nao ficou registrado na geracao (imagemPrompt: null).
 
 #############################################################
+
+[2026-08-21T22:37:44-03:00] Nenhum post novo para processar.
