@@ -129,5 +129,26 @@
     "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7495565244002623488/",
     "publicadoEm": "2026-08-18T16:41:08-03:00",
     "status": "publicado"
+  },
+  {
+    "id": "redes-opticas-elasticas-rmsa",
+    "tipo": "comunidade",
+    "fonte": "full-stack (educativo: redes ópticas elásticas com SDM, problema RMSA)",
+    "pilar": "full-stack",
+    "texto": "Uma fibra pode estar com metade do espectro livre e ainda assim recusar uma conexão nova. Não falta capacidade. Falta capacidade no lugar certo.\n\nIsso acontece nas redes ópticas elásticas, a espinha dorsal do tráfego de longa distância. A rede antiga trabalhava com grade fixa, entregando um canal do mesmo tamanho para qualquer demanda, precisando ou não. A elástica corta o espectro em fatias finas e monta a banda sob medida, só que essa flexibilidade cobra em decisão. Para atender um pedido, três escolhas saem juntas. A rota, entre os vários caminhos da topologia. O formato de modulação, onde mora o trade-off, porque empacotar mais bits por símbolo gasta menos espectro e encurta o alcance do sinal. E as fatias de espectro, que precisam ficar lado a lado e ocupar a mesma posição em todos os enlaces da rota.\n\nEssa última restrição é a que morde. Parece reservar poltronas numeradas em uma viagem com baldeação, onde não basta haver lugares livres, porque eles precisam ser vizinhos e ter os mesmos números em cada trecho. Conforme conexões entram e saem, o espectro vai ficando furado, com capacidade de sobra espalhada em pedaços pequenos demais para caber qualquer coisa nova.\n\nCom SDM entra a dimensão espacial. Vários núcleos dentro da mesma fibra multiplicam a capacidade, só que núcleos vizinhos usando as mesmas fatias interferem entre si, então escolher o núcleo passa a fazer parte do problema. Juntando rota, modulação, espectro e núcleo, o resultado é NP-difícil. Rede de verdade responde em milissegundos com heurística, não com a solução ótima.\n\nJá precisou lidar com recurso que sobrava e mesmo assim não dava para usar por causa da fragmentação?",
+    "hashtags": [
+      "#redesdecomputadores",
+      "#cienciadacomputacao",
+      "#telecomunicacoes",
+      "#otimizacao"
+    ],
+    "imagem": "posts_gerados/redes-opticas-elasticas-rmsa/imagem.png",
+    "imagemTipo": "gancho",
+    "imagemFormato": "palavra",
+    "imagemModelo": "gpt-image-2",
+    "imagemPrompt": "Pixel 8-bit, palavra-herói 'RMSA' + pills ROTA / MODULAÇÃO / ESPECTRO; janela retrô com corte transversal da fibra (4 núcleos) e grade de slots de espectro com lacunas; rodapé </> Paulo Eduardo",
+    "permalink": "https://www.linkedin.com/feed/update/urn:li:activity:7498041581938184194/",
+    "publicadoEm": "2026-08-25T12:40:00-03:00",
+    "status": "publicado"
   }
 ]
