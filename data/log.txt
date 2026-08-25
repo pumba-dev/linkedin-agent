@@ -669,3 +669,14 @@ Já precisou lidar com recurso que sobrava e mesmo assim não dava para usar por
 * Permalink: https://www.linkedin.com/feed/update/urn:li:activity:7498041581938184194/
 
 #############################################################
+
+[2026-08-25T12:48:00-03:00] Execução concluída | Novos processados: 1 | Ignorados: 4
+
+*  https://www.linkedin.com/feed/update/urn:li:activity:7498016519876947968/
+* Curtida: feita
+* Comentário: feito
+   * Texto: "Pós-venda em escala depende menos de coletar feedback e mais do que organiza esse volume na velocidade em que a decisão precisa sair."
+* Compartilhamento: feito
+   * Texto: "Pós-venda deixou de ser suporte e virou frente de retenção nas agendas de experiência do cliente. O que sustenta isso por baixo é bem menos glamouroso, porque envolve dar conta de um volume crescente de feedback e devolver essa leitura organizada para quem decide, no tempo em que a decisão ainda muda o resultado. Três dias reunindo lideranças de CX, atendimento e pós-vendas rendem justamente nesse ponto, entre o que o cliente sinaliza e o que a operação consegue priorizar. Quem constrói essa ponte com consistência sai na frente."
+
+#############################################################
