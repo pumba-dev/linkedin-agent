@@ -714,3 +714,26 @@ o menu agora diz "Compartilhar com ideias" (era "Compartilhe com suas ideias").
 
 #############################################################
 
+
+[2026-08-31T22:40:00-03:00] Execução complementar | Novos processados: 1 | Ignorados: 0
+
+Post que a execução anterior tinha pulado por ser post pessoal de colaborador.
+Usuário definiu que a skill NAO filtra por autor: tudo que aparece na pagina entra
+no fluxo. Regra gravada no passo 5 da SKILL.md.
+
+* https://www.linkedin.com/feed/update/urn:li:activity:7500343717615218688/
+  (autor: Lucas Fonseca, post pessoal exibido na pagina da empresa)
+* Curtida: feita
+* Comentário: feito
+   * Texto: "A dificuldade aí é mais de cadência do que de vontade, porque percepção costuma ser medida em ondas e experiência chega o tempo todo."
+* Compartilhamento: feito
+   * Texto: "Percepção de marca e sinal de experiência raramente chegam no mesmo formato. Um vem em onda, preso a campanha e período, enquanto o outro vem contínuo, no ritmo do cliente. A parte que dá trabalho é reconciliar essas cadências sem achatar o que cada uma explica. Quem monta esse encaixe passa a enxergar marca e operação na mesma tela."
+
+OBS TECNICA: o comentario falhou na 1a tentativa. Causa: o popup de reacoes do
+LinkedIn (floating-ui) deixou style="pointer-events: none" no <body> e nao limpou,
+entao nenhum clique real chegava a elemento nenhum ("<html> intercepts pointer
+events"). Escape nao resolve; remover o estilo inline resolve. Documentado na
+SKILL.md (passo 6b).
+
+#############################################################
+
